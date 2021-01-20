@@ -8,4 +8,5 @@
     <string name="camera">Camera</string>
     <string name="information">Information</string>
     <string name="history">History</string>
+    <string name="important_information">Important Information</string>
 </resources>
