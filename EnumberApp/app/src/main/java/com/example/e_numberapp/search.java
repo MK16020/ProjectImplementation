@@ -25,7 +25,7 @@ public class search extends Fragment {
 
         ArrayList<String> myarraylist = new ArrayList<>();
         ArrayAdapter<String> myarrayadapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,myarraylist);
-        mylistview = (ListView) findViewById(R.id.listView);
+        mylistview =(ListView) findViewById(R.id.listView);
         mylistview.setAdapter(myarrayadapter);
 
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
