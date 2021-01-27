@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class search extends Fragment {
 
-    ArrayList<String> myarraylist = new ArrayList<>();
+
     ListView mylistview;
 
     @Nullable
@@ -23,9 +23,13 @@ public class search extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_search, container, false);
 
+        ArrayList<String> myarraylist = new ArrayList<>();
         ArrayAdapter<String> myarrayadapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,myarraylist);
         mylistview = (ListView) findViewById(R.id.listView);
         mylistview.setAdapter(myarrayadapter);
+
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
+        reference.addValueEventListener(new ValueEventListener);
     }
 
 
