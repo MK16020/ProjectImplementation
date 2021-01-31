@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 import com.google.firebase.*;
 import java.util.ArrayList;
 
-
 public class search extends Fragment {
 
     
