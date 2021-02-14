@@ -4,6 +4,7 @@ import android.database.DatabaseUtils;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ListView;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -21,6 +22,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
+import static com.example.e_numberapp.R.id.mylistView;
+
 
 public class search extends Fragment {
 
@@ -35,7 +38,7 @@ public class search extends Fragment {
         return inflater.inflate(R.layout.fragment_search, container, false);
 
 
-        mylistview=(ListView) findViewById(R.id.listView);
+        mylistview= findViewById(R.id.mylistView);
         myarraylist = new ArrayList<>();
         myarrayadapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,myarraylist);
         mylistview.setAdapter(myarrayadapter);
@@ -63,6 +66,7 @@ public class search extends Fragment {
         });
 
     }
+
 
 
 }
