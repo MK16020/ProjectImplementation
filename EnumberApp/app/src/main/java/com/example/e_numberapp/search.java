@@ -27,36 +27,29 @@ import static com.example.e_numberapp.R.id.mylistView;
 
 public class search extends Fragment {
 
-    DatabaseReference reference;
+
     ListView  mylistview;
     ArrayList<String> myarraylist;
     ArrayAdapter<String> myarrayadapter;
+    DatabaseReference reference;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_search, container, false);
+        View v = inflater.inflate(R.layout.fragment_search, container, false);
 
 
-        mylistview= findViewById(R.id.mylistView);
+        mylistview = v.findViewById(R.id.mylistView);
         myarraylist = new ArrayList<>();
-        myarrayadapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,myarraylist);
+        myarrayadapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, myarraylist);
         mylistview.setAdapter(myarrayadapter);
-
-
-
-
-
-
-
-
-
 
         reference = FirebaseDatabase.getInstance().getReference();
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
+                String e = snapshot.child("E_no").getValue().toString();
             }
 
             @Override
@@ -65,6 +58,8 @@ public class search extends Fragment {
             }
         });
 
+
+        return v;
     }
 
 
