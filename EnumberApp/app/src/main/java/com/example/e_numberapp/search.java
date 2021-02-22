@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import java.util.ArrayList;
 import com.google.firebase.*;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,27 +30,58 @@ public class search extends Fragment {
 
 
     ListView  mylistview;
-    ArrayList<String> myarraylist;
+    ArrayList<String> myarraylist= new ArrayList<>();
     ArrayAdapter<String> myarrayadapter;
     DatabaseReference reference;
+
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_search, container, false);
+      return inflater.inflate(R.layout.fragment_search, container, false);
 
+    }
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
 
-        mylistview = v.findViewById(R.id.mylistView);
-        myarraylist = new ArrayList<>();
+        mylistview = view.findViewById(R.id.mylistView);
         myarrayadapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, myarraylist);
         mylistview.setAdapter(myarrayadapter);
 
-        reference = FirebaseDatabase.getInstance().getReference();
-        reference.addValueEventListener(new ValueEventListener() {
+        reference = FirebaseDatabase.getInstance().getReference().child("E_no");
+        /*reference.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
+            public void onDataChange(@NonNull DataSnapshot datasnapshot) {
 
-                String e = snapshot.child("E_no").getValue().toString();
+                 String myEnumber = datasnapshot.getValue(String.class);
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });*/
+        reference.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                String myvalue = snapshot.getValue(String.class);
+                myarraylist.add(myvalue);
+                myarrayadapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                myarrayadapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
             }
 
             @Override
@@ -59,9 +91,7 @@ public class search extends Fragment {
         });
 
 
-        return v;
     }
-
 
 
 }
