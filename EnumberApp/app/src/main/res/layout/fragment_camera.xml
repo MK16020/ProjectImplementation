@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30sp"
-            android:text="@string/open_camera" />
+            android:text="open_camera" />
 
         <ImageView
             android:id="@+id/capturedImage"
