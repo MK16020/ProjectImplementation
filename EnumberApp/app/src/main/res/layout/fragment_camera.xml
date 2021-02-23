@@ -2,14 +2,63 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".camera">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/camera_fragment"
-        android:textColor="#f753"
-        android:textSize="30sp"
-        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/camera_fragment"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#f956"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/openCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/open_camera" />
+
+        <ImageView
+            android:id="@+id/capturedImage"
+            android:layout_width="250dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:contentDescription="@string/todo" />
+
+        <Button
+            android:id="@+id/ocr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="convert image to text" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            />
+
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>
+
+
+
+
