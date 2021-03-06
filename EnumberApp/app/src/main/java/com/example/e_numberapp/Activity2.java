@@ -54,6 +54,7 @@ public class Activity2 extends AppCompatActivity {
                         case bottom_nav_history:
                             selectedFragment = new history();
                             break;
+                        
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container
