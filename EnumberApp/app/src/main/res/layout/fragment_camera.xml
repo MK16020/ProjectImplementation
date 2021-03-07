@@ -38,24 +38,7 @@
             android:layout_marginTop="30sp"
             android:contentDescription="@string/todo" />
 
-        <Button
-            android:id="@+id/ocr"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30sp"
-            android:text="@string/convert_image_to_text" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30sp"
-            />
-
-
     </LinearLayout>
-
-
 
 </RelativeLayout>
 

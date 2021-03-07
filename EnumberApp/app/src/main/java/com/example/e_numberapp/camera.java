@@ -64,29 +64,6 @@ public class camera extends Fragment {
 
     }
 
-    public void getTextFromImage (View v){
-        Bitmap bitmap = BitmapFactory.decodeResource(Objects.requireNonNull(getActivity()).getApplicationContext().getResources(),R.drawable.p);
-        TextRecognizer textRecognizer = new TextRecognizer.Builder(getActivity().getApplicationContext()).build();
-
-        if(!textRecognizer.isOperational()){
-            Toast.makeText(getActivity().getApplicationContext(), "Could not get the text",Toast.LENGTH_SHORT ).show();
-        }
-        else{
-            Frame frame = new Frame.Builder().setBitmap(bitmap).build();
-            SparseArray<TextBlock> items= textRecognizer.detect(frame);
-
-            StringBuilder sb= new StringBuilder();
-
-            for(int i=0; i<items.size(); ++i){
-                TextBlock myitem = items.valueAt(i);
-                sb.append(myitem.getValue());
-                sb.append("\n");
-            }
-            t1.setText(sb.toString());
-        }
-
-    }
-
 }
 
 
