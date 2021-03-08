@@ -51,7 +51,6 @@ public class camera extends Fragment {
         });
         return v;
 
-
     }
 
     @Override
