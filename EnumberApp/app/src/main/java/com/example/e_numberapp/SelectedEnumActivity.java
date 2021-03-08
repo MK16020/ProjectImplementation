@@ -8,20 +8,28 @@ import android.widget.TextView;
 
 public class SelectedEnumActivity extends AppCompatActivity {
 
-    TextView tvenum;
+
+    TextView tvname;
+    TextView tvtype;
+    TextView tvstatus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selected_enum);
 
-        tvenum = findViewById(R.id.selectedenum);
+
+        tvname = findViewById(R.id.selectedname);
+        tvtype = findViewById(R.id.selectedtype);
+        tvstatus = findViewById(R.id.selectedstatus);
 
         Intent intent = getIntent();//open this activity over the others
         if (intent.getExtras() != null){
             EnumModel enumModel = (EnumModel) intent.getSerializableExtra("data");
             //take information from model with Serializable
-            tvenum.setText(enumModel.getName());
+            tvname.setText(enumModel.getName());
+            /*tvtype.setText(enumModel.);*/
+            tvstatus.setText(enumModel.getStatus());
         }
     }
 }
