@@ -39,7 +39,7 @@ public class search extends Fragment implements EnumAdapter.SelectedEnum{
     Context context;
 
     @Nullable
-    public View onCreate(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
         View v = inflater.inflate(R.layout.fragment_search, container, false);
