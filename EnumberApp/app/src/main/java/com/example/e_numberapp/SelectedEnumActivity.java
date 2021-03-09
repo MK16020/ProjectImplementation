@@ -15,12 +15,13 @@ import android.graphics.Color;
 public class SelectedEnumActivity extends AppCompatActivity {
 
 
+    Button  colorbt;
+
     TextView tvname;
     TextView tvtype;
     TextView tvstatus;
     TextView tvsideeff;
 
-    Button  colorbt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
