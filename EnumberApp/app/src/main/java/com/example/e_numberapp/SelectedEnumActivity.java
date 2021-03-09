@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
+import android.graphics.Color;
 
 public class SelectedEnumActivity extends AppCompatActivity {
 
@@ -38,15 +39,15 @@ public class SelectedEnumActivity extends AppCompatActivity {
               switch (enumModel.getColor_Id()){
                   case 1:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(Color.GREEN);
+                      colorbt.setBackgroundColor(0X008000);
                       break;
                   case 2:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(Color.YELLOW);
+                      colorbt.setBackgroundColor(0XFFFF00);
                       break;
                   case 3:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(Color.RED);
+                      colorbt.setBackgroundColor(0XFF0000);
                       break;
               }
 
