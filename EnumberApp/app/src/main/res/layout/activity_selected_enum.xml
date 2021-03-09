@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SelectedEnumActivity">
+    android:orientation="vertical">
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -23,24 +23,34 @@
     </androidx.appcompat.widget.Toolbar>
 
     <Button
+        android:id="@+id/color"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
-        android:text="..."
+        android:text="Click to know the status"
         android:textColor="@color/black"
         android:background="@color/colorAccent"
+        android:layout_gravity="center"
         />
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
 
+    >
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center"
-        android:fadingEdge="horizontal|vertical"
-
         android:orientation="vertical"
-        android:visibility="visible">
+        android:layout_weight="1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp">
+
+
+
+
+
+
 
         <TextView
             android:id="@+id/name"
@@ -48,16 +58,12 @@
             android:layout_height="wrap_content"
             android:text="Name:"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="24dp"
 
-        <TextView
-            android:id="@+id/selectedname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Enumber"
-            android:textColor="#FF6200EE"
-            android:textSize="24dp" />
+
+            />
+
+
 
         <TextView
             android:id="@+id/type"
@@ -65,16 +71,12 @@
             android:layout_height="wrap_content"
             android:text="Type:"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="24dp"
 
-        <TextView
-            android:id="@+id/selectedtype"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Enumber"
-            android:textColor="#FF6200EE"
-            android:textSize="24dp" />
+
+            />
+
+
 
         <TextView
             android:id="@+id/status"
@@ -82,30 +84,44 @@
             android:layout_height="wrap_content"
             android:text="Status:"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="24dp"
 
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:id="@+id/selectedname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enumber"
+            android:textColor="#FF6200EE"
+            android:textSize="24dp"
+            />
+        <TextView
+            android:id="@+id/selectedtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enumber"
+            android:textColor="#FF6200EE"
+            android:textSize="24dp"
+            />
         <TextView
             android:id="@+id/selectedstatus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:text="Enumber"
             android:textColor="#FF6200EE"
-            android:textSize="24dp" />
+            android:textSize="24dp"
+            />
     </LinearLayout>
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="403dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="307dp"
-        android:layout_marginBottom="21dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99"
-        app:srcCompat="@drawable/background" />
-</RelativeLayout>
+</LinearLayout>
+
+</LinearLayout>
