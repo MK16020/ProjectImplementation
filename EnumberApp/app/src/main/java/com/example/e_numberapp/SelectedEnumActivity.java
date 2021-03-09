@@ -1,6 +1,7 @@
 package com.example.e_numberapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -39,15 +40,15 @@ public class SelectedEnumActivity extends AppCompatActivity {
               switch (enumModel.getColor_Id()){
                   case 1:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(0X008000);
+                      colorbt.setBackgroundColor(getResources().getColor(R.color.green));
                       break;
                   case 2:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(0XFFFF00);
+                      colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
                       break;
                   case 3:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(0XFF0000);
+                      colorbt.setBackgroundColor(getResources().getColor(R.color.red));
                       break;
               }
 
