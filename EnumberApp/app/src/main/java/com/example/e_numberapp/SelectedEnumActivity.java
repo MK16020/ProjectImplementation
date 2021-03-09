@@ -16,6 +16,8 @@ public class SelectedEnumActivity extends AppCompatActivity {
     TextView tvname;
     TextView tvtype;
     TextView tvstatus;
+    TextView tvsideeff;
+
     Button  colorbt;
 
     @Override
@@ -35,15 +37,15 @@ public class SelectedEnumActivity extends AppCompatActivity {
 
               switch (enumModel.getColor_Id()){
                   case 1:
-                      colorbt.setText(enumModel.E_no.toString());
+                      colorbt.setText(enumModel.getE_no().toString());
                       colorbt.setBackgroundColor(Color.GREEN);
                       break;
                   case 2:
-                      colorbt.setText(enumModel.E_no.toString());
+                      colorbt.setText(enumModel.getE_no().toString());
                       colorbt.setBackgroundColor(Color.YELLOW);
                       break;
                   case 3:
-                      colorbt.setText(enumModel.E_no.toString());
+                      colorbt.setText(enumModel.getE_no().toString());
                       colorbt.setBackgroundColor(Color.RED);
                       break;
               }
@@ -53,8 +55,9 @@ public class SelectedEnumActivity extends AppCompatActivity {
         });
 
         tvname = findViewById(R.id.selectedname);
-        tvtype = findViewById(R.id.selectedtype);
+        tvtype = findViewById(R.id.selecteddetails);
         tvstatus = findViewById(R.id.selectedstatus);
+        tvsideeff = findViewById(R.id.selectedsideeff);
 
         if (intent.getExtras() != null){
 
@@ -62,6 +65,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
             tvname.setText(enumModel.getName());
             tvtype.setText(enumModel.getDetail());
             tvstatus.setText(enumModel.getStatus());
+            tvsideeff.setText(enumModel.getSide_effect());
         }
     }
 

@@ -53,15 +53,17 @@
             android:layout_height="wrap_content"
             android:text="Name:"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="24dp"
+            />
 
         <TextView
-            android:id="@+id/type"
+            android:id="@+id/details"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Type:"
+            android:text="Details:"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"/>
 
         <TextView
             android:id="@+id/status"
@@ -69,7 +71,16 @@
             android:layout_height="wrap_content"
             android:text="Status:"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/sideeff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Side of effect:"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"/>
 
 
     </LinearLayout>
@@ -88,13 +99,13 @@
             android:textSize="24dp"
             />
         <TextView
-            android:id="@+id/selectedtype"
+            android:id="@+id/selecteddetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enumber"
             android:textColor="#FF6200EE"
             android:textSize="24dp"
-            />
+            android:layout_marginTop="10dp" />
         <TextView
             android:id="@+id/selectedstatus"
             android:layout_width="wrap_content"
@@ -102,7 +113,15 @@
             android:text="Enumber"
             android:textColor="#FF6200EE"
             android:textSize="24dp"
-            />
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/selectedsideeff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enumber"
+            android:textColor="#FF6200EE"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"/>
     </LinearLayout>
 </LinearLayout>
 
