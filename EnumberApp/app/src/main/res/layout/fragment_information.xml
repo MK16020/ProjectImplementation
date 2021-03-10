@@ -107,7 +107,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mashbouh is an Arabic term that means suspicion of the existence of a gray area between Halaal and Haraam, as one suspects that the food is halal or not. An observant Muslim prevents himself from eating the doubtful."
+                android:text="Mashbouh is an Arabic term that means suspicion of the existence of a gray area between Halaal and Haraam, as one suspects that the food is halal or not. An observant Muslim avoids ​questionable food ."
                 android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
