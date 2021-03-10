@@ -19,7 +19,7 @@
             android:theme="@style/ToolBar"
             android:layout_height="?attr/actionBarSize">
             <TextView
-                android:text="Enumbers"
+                android:text="Enumbers search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
