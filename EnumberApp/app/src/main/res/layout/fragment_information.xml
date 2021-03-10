@@ -44,8 +44,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Food additives are substances used to enhance the appearance and flavor of the food and prolong the shelf life. Some of them are safe, but some can be very dangerous and cause side effects, allergic reactions or hyperactivity."
-                android:layout_marginTop="2sp"
+                android:text="Any substance that is added to food and is intended to improve preservation, taste, and appearance or to extend the shelf life. Some are safe, but some can be very dangerous and cause side effects, allergic reactions, or hyperactivity"                android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText"
