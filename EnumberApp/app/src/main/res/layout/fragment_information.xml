@@ -128,7 +128,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Haram is a Quranic term meaning forbidden. Forbidden foods are unlawful by Allah. Eating Haram is prohibited for every Muslim."                android:layout_marginTop="2sp"
+                android:text="Haram is a Quranic term meaning forbidden. Forbidden foods are unlawful by Allah. Eating Haram is prohibited for every Muslim."
+                android:layout_marginTop="2sp"
                 android:layout_marginBottom="10sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
