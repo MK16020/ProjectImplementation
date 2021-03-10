@@ -84,8 +84,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Halal is a Quranic term which means allowed or lawful. Halal foods and drinks are permitted for consumption by Allah- the Supreme Law Giver. Eating Halal is obligatory on every Muslim."
-                android:layout_marginTop="2sp"
+                android:text="Halal is a Quranic term that means permissible or legitimate, meaning that these foods are permitted by God Almighty. Eating Halal is a duty on every Muslim."                android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText"
