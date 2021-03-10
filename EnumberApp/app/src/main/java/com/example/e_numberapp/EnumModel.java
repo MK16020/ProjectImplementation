@@ -11,10 +11,6 @@ public class EnumModel implements Serializable {
     public EnumModel() {
     }
 
-    public EnumModel(String name) {
-        Name = name;
-    }
-
     public EnumModel(int color_Id, int e_Id, String detail, String e_no, String name, String side_effect, String status) {
         Color_Id = color_Id;
         E_Id = e_Id;
