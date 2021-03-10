@@ -6,7 +6,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if pure grind turmeric",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E101",
@@ -15,7 +15,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh (haram if from pork liver & kidney, halal if 100% plant material",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E102",
@@ -24,7 +24,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "Dangerous and prohibited materials in America and Britain, and it causes cancer"
+   "Side_effect": "Dangerous and prohibited materials in America and Britain, and it causes cancer"
  },
  {
    "E_no": "E103",
@@ -33,7 +33,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "Internationally Banned Item"
+   "Side_effect": "Internationally Banned Item"
  },
  {
    "E_no": "E110",
@@ -42,7 +42,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "Dangerous and prohibited materials in America and Britain"
+   "Side_effect": "Dangerous and prohibited materials in America and Britain"
  },
  {
    "E_no": "E120",
@@ -51,7 +51,7 @@
    "Detail": "Color",
    "Color_Id": 3,
    "Status": "Haram according to ulama from uk & south africa",
-   "Side effect": "Dangerous and prohibited materials in America and Britain"
+   "Side_effect": "Dangerous and prohibited materials in America and Britain"
  },
  {
    "E_no": "E122",
@@ -60,7 +60,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children"
+   "Side_effect": "May increase hyperactivity in affected children"
  },
  {
    "E_no": "E123",
@@ -69,7 +69,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if 100% plant material w/o alcohol",
-   "Side effect": "Dangerous and prohibited materials in America and Britain, and it causes cancer"
+   "Side_effect": "Dangerous and prohibited materials in America and Britain, and it causes cancer"
  },
  {
    "E_no": "E124",
@@ -78,7 +78,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh (synthetic)",
-   "Side effect": "Dangerous and prohibited materials in America and Britain, and it causes cancer"
+   "Side_effect": "Dangerous and prohibited materials in America and Britain, and it causes cancer"
  },
  {
    "E_no": "E127",
@@ -87,7 +87,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "Dangerous and prohibited materials in America and Britain"
+   "Side_effect": "Dangerous and prohibited materials in America and Britain"
  },
  {
    "E_no": "E131",
@@ -96,7 +96,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "It causes cancer"
+   "Side_effect": "It causes cancer"
  },
  {
    "E_no": "E132",
@@ -105,7 +105,7 @@
    "Detail": "Color",
    "Color_Id": 3,
    "Status": "Haram according to ulama from uk & south africa",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E140",
@@ -114,7 +114,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if not extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E141",
@@ -123,7 +123,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if not extracted with alcohol",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E142",
@@ -132,7 +132,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if synthetic material is halal",
-   "Side effect": "It causes cancer"
+   "Side_effect": "It causes cancer"
  },
  {
    "E_no": "E150",
@@ -141,7 +141,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "E151",
@@ -150,7 +150,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if synthetic material are halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E153",
@@ -159,7 +159,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if 100% vegetable derived",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "E160a",
@@ -168,7 +168,7 @@
    "Detail": "Color - carotene",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E160b",
@@ -177,7 +177,7 @@
    "Detail": "Color - carotene",
    "Color_Id": 2,
    "Status": "Mushbooh, may be mixed with gelatin",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E160c",
@@ -186,7 +186,7 @@
    "Detail": "Color - carotene",
    "Color_Id": 2,
    "Status": "Mushbooh, may be mixed with gelatin",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E160d",
@@ -195,7 +195,7 @@
    "Detail": "Color - carotene",
    "Color_Id": 2,
    "Status": "Mushbooh, may be mixed with gelatin",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E160e",
@@ -204,7 +204,7 @@
    "Detail": "Color - carotene",
    "Color_Id": 2,
    "Status": "Mushbooh, may be mixed with gelatin",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E160f",
@@ -213,7 +213,7 @@
    "Detail": "Color - carotene",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161a",
@@ -222,7 +222,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161b",
@@ -231,7 +231,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161c",
@@ -240,7 +240,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161d",
@@ -249,7 +249,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161e",
@@ -258,7 +258,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161f",
@@ -267,7 +267,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, may be extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E161g",
@@ -276,7 +276,7 @@
    "Detail": "Color",
    "Color_Id": 2,
    "Status": "Mushbooh, haram if from animal source (retinal)",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E162",
@@ -285,7 +285,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if not extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E163",
@@ -294,7 +294,7 @@
    "Detail": "Color",
    "Color_Id": 1,
    "Status": "Halal if not extracted with alcohol",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E170",
@@ -303,7 +303,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 2,
    "Status": "Mushbooh, haram if from animal bones, halal if from rock mineral",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E171",
@@ -312,7 +312,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E172",
@@ -321,7 +321,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E173",
@@ -330,7 +330,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E174",
@@ -339,7 +339,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E175",
@@ -348,7 +348,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E180",
@@ -357,7 +357,7 @@
    "Detail": "Color - inorganic",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E200",
@@ -366,7 +366,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E201",
@@ -375,7 +375,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E202",
@@ -384,7 +384,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E203",
@@ -393,7 +393,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E210",
@@ -402,7 +402,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is cause cancer"
+   "Side_effect": "It is cause cancer"
  },
  {
    "E_no": "E211",
@@ -411,7 +411,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Internationally banned item, and it is cause stomach pain, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it is cause stomach pain, and it causes cancer"
  },
  {
    "E_no": "E212",
@@ -420,7 +420,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E213",
@@ -429,7 +429,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E214",
@@ -438,7 +438,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E215",
@@ -447,7 +447,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E216",
@@ -456,7 +456,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "It causes cancer"
+   "Side_effect": "It causes cancer"
  },
  {
    "E_no": "E217",
@@ -465,7 +465,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E218",
@@ -474,7 +474,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "It causes cancer"
+   "Side_effect": "It causes cancer"
  },
  {
    "E_no": "E219",
@@ -483,7 +483,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "It causes cancer"
+   "Side_effect": "It causes cancer"
  },
  {
    "E_no": "E220",
@@ -492,7 +492,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It causes cancer, also destroys vitamin B12"
+   "Side_effect": "It causes cancer, also destroys vitamin B12"
  },
  {
    "E_no": "E221",
@@ -501,7 +501,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Cause stomach pain, also it causes intestinal upset"
+   "Side_effect": "Cause stomach pain, also it causes intestinal upset"
  },
  {
    "E_no": "E222",
@@ -510,7 +510,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It causes skin problems"
+   "Side_effect": "It causes skin problems"
  },
  {
    "E_no": "E223",
@@ -519,7 +519,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Cause stomach pain, also it causes intestinal upset"
+   "Side_effect": "Cause stomach pain, also it causes intestinal upset"
  },
  {
    "E_no": "E224",
@@ -528,7 +528,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Cause stomach pain, also it causes intestinal upset"
+   "Side_effect": "Cause stomach pain, also it causes intestinal upset"
  },
  {
    "E_no": "E226",
@@ -537,7 +537,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Cause stomach pain, also it causes intestinal upset"
+   "Side_effect": "Cause stomach pain, also it causes intestinal upset"
  },
  {
    "E_no": "E227",
@@ -546,7 +546,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "it causes skin problems"
+   "Side_effect": "it causes skin problems"
  },
  {
    "E_no": "E230",
@@ -555,7 +555,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "cause a rash"
+   "Side_effect": "cause a rash"
  },
  {
    "E_no": "E231",
@@ -564,7 +564,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "cause a rash, also it causes skin problems"
+   "Side_effect": "cause a rash, also it causes skin problems"
  },
  {
    "E_no": "E232",
@@ -573,7 +573,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "cause a rash, also it causes skin problems"
+   "Side_effect": "cause a rash, also it causes skin problems"
  },
  {
    "E_no": "E233",
@@ -582,7 +582,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal, if no alcohol is used",
-   "Side effect": "cause a rash, also it causes skin problems"
+   "Side_effect": "cause a rash, also it causes skin problems"
  },
  {
    "E_no": "E239",
@@ -591,7 +591,7 @@
    "Detail": "Preservative - other",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E249",
@@ -600,7 +600,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "it causes cancer"
+   "Side_effect": "it causes cancer"
  },
  {
    "E_no": "E250",
@@ -609,7 +609,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "cause high blood pressure, and it causes cancer, also it causes skin problems"
+   "Side_effect": "cause high blood pressure, and it causes cancer, also it causes skin problems"
  },
  {
    "E_no": "E251",
@@ -618,7 +618,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "cause high blood pressure"
+   "Side_effect": "cause high blood pressure"
  },
  {
    "E_no": "E252",
@@ -627,7 +627,7 @@
    "Detail": "Preservative",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "cause high blood pressure"
+   "Side_effect": "cause high blood pressure"
  },
  {
    "E_no": "E260",
@@ -636,7 +636,7 @@
    "Detail": "Miscellaneous - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E261",
@@ -645,7 +645,7 @@
    "Detail": "Miscellaneous - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E262",
@@ -654,7 +654,7 @@
    "Detail": "Miscellaneous - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E263",
@@ -663,7 +663,7 @@
    "Detail": "Miscellaneous - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E270",
@@ -672,7 +672,7 @@
    "Detail": "Miscellaneous - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E280",
@@ -681,7 +681,7 @@
    "Detail": "Preservative - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E281",
@@ -690,7 +690,7 @@
    "Detail": "Preservative - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E282",
@@ -699,7 +699,7 @@
    "Detail": "Preservative - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E283",
@@ -708,7 +708,7 @@
    "Detail": "Preservative - acids",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E290",
@@ -717,7 +717,7 @@
    "Detail": "Miscellaneous",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E300",
@@ -726,7 +726,7 @@
    "Detail": "Antioxidants - vitamin c",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E301",
@@ -735,7 +735,7 @@
    "Detail": "Antioxidants - vitamin c and |derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E302",
@@ -744,7 +744,7 @@
    "Detail": "Antioxidants - vitamin c and |derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E304",
@@ -753,7 +753,7 @@
    "Detail": "Antioxidants - vitamin c and |derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E306",
@@ -762,7 +762,7 @@
    "Detail": "Antioxidants - vitamin e",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E307",
@@ -771,7 +771,7 @@
    "Detail": "Antioxidants - vitamin e",
    "Color_Id": 1,
    "Status": "Halal only if it is made with all halal synthetic materials",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E308",
@@ -780,7 +780,7 @@
    "Detail": "Antioxidants - vitamin e",
    "Color_Id": 1,
    "Status": "Halal only if it is made with all halal synthetic materials",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E309",
@@ -789,7 +789,7 @@
    "Detail": "Antioxidants - vitamin e",
    "Color_Id": 1,
    "Status": "Halal only if it is made with all halal synthetic materials",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E310",
@@ -798,7 +798,7 @@
    "Detail": "Antioxidants - other",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E311",
@@ -807,7 +807,7 @@
    "Detail": "Antioxidants - other",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "It causes cancer, also it causes a rash"
+   "Side_effect": "It causes cancer, also it causes a rash"
  },
  {
    "E_no": "E312",
@@ -816,7 +816,7 @@
    "Detail": "Antioxidants - other",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "It causes a rash, also it is increasing the cholesterol"
+   "Side_effect": "It causes a rash, also it is increasing the cholesterol"
  },
  {
    "E_no": "E320",
@@ -825,7 +825,7 @@
    "Detail": "Antioxidants - other",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if vegetable oil is used as a carrier, haram if animal fat is used as carrier.They are not 100% bha which is a chemical",
-   "Side effect": "It causes high blood pressure, also it is increasing the cholesterol"
+   "Side_effect": "It causes high blood pressure, also it is increasing the cholesterol"
  },
  {
    "E_no": "E321",
@@ -834,7 +834,7 @@
    "Detail": "Antioxidants - other",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if vegetable oil is used as a carrier, haram if animal fat is used as carrier.They are not 100% bha which is a chemical",
-   "Side effect": "cause high blood pressure"
+   "Side_effect": "cause high blood pressure"
  },
  {
    "E_no": "E322",
@@ -843,7 +843,7 @@
    "Detail": "Emulsifiers and stabilizers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from soy fat or egg yolk, haram if it is from animal fat",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E325",
@@ -852,7 +852,7 @@
    "Detail": "Miscellaneous - salts of lactic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E326",
@@ -861,7 +861,7 @@
    "Detail": "Miscellaneous - salts of lactic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E327",
@@ -870,7 +870,7 @@
    "Detail": "Miscellaneous - salts of lactic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E330",
@@ -879,7 +879,7 @@
    "Detail": "Miscellaneous - citric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Internationally banned item, and it causes cancer"
+   "Side_effect": "Internationally banned item, and it causes cancer"
  },
  {
    "E_no": "E331",
@@ -888,7 +888,7 @@
    "Detail": "Miscellaneous - citric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E332",
@@ -897,7 +897,7 @@
    "Detail": "Miscellaneous - citric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E333",
@@ -906,7 +906,7 @@
    "Detail": "Miscellaneous - citric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E334",
@@ -915,7 +915,7 @@
    "Detail": "Miscellaneous - tartaric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal, if not from wine by-product, in usa it is halal",
-   "Side effect": "Intestine Upset"
+   "Side_effect": "Intestine Upset"
  },
  {
    "E_no": "E335",
@@ -924,7 +924,7 @@
    "Detail": "Miscellaneous - tartaric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal, if not from wine by-product, in usa it is halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E336",
@@ -933,7 +933,7 @@
    "Detail": "Miscellaneous - tartaric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal, if not from wine by-product",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E337",
@@ -942,7 +942,7 @@
    "Detail": "Miscellaneous - tartaric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal, if not from wine by-product",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E338",
@@ -951,7 +951,7 @@
    "Detail": "Miscellaneous - phosphoric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E339",
@@ -960,7 +960,7 @@
    "Detail": "Miscellaneous - phosphoric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "Peptic Disorder"
+   "Side_effect": "Peptic Disorder"
  },
  {
    "E_no": "E340",
@@ -969,7 +969,7 @@
    "Detail": "Miscellaneous - phosphoric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E341",
@@ -978,7 +978,7 @@
    "Detail": "Miscellaneous - phosphoric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E400",
@@ -987,7 +987,7 @@
    "Detail": "Emulsifiers and stabilizers - alginates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E401",
@@ -996,7 +996,7 @@
    "Detail": "Emulsifiers and stabilizers - alginates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E402",
@@ -1005,7 +1005,7 @@
    "Detail": "Emulsifiers and stabilizers - alginates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E403",
@@ -1014,7 +1014,7 @@
    "Detail": "Emulsifiers and stabilizers - |alginates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E404",
@@ -1023,7 +1023,7 @@
    "Detail": "Emulsifiers and stabilizers - |alginates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E405",
@@ -1032,7 +1032,7 @@
    "Detail": "Emulsifiers and stabilizers - alginates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E406",
@@ -1041,7 +1041,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E407",
@@ -1050,7 +1050,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E410",
@@ -1059,7 +1059,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E412",
@@ -1068,7 +1068,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E413",
@@ -1077,7 +1077,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E414",
@@ -1086,7 +1086,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E415",
@@ -1095,7 +1095,7 @@
    "Detail": "Emulsifiers and stabilizers - other plant gums",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E420",
@@ -1104,7 +1104,7 @@
    "Detail": "Sugar alcohols",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E421",
@@ -1113,7 +1113,7 @@
    "Detail": "Sugar alcohols",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E422",
@@ -1122,7 +1122,7 @@
    "Detail": "Sugar alcohols",
    "Color_Id": 2,
    "Status": "Mushbooh, called glycerin in usa, halal if it is from plant, haram if it is from animal",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E440a",
@@ -1131,7 +1131,7 @@
    "Detail": "Emulsifiers and stabilisers - pectin and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E440b",
@@ -1140,7 +1140,7 @@
    "Detail": "Emulsifiers and stabilisers - pectin and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E450 a,b,c",
@@ -1149,7 +1149,7 @@
    "Detail": "Miscellaneous",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E460",
@@ -1158,7 +1158,7 @@
    "Detail": "Emulsifiers and stabilisers - cellulose and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E461",
@@ -1167,7 +1167,7 @@
    "Detail": "Emulsifiers and stabilisers - cellulose and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E463",
@@ -1176,7 +1176,7 @@
    "Detail": "Emulsifiers and stabilisers - cellulose and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E464",
@@ -1185,7 +1185,7 @@
    "Detail": "Emulsifiers and stabilisers - cellulose and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E465",
@@ -1194,7 +1194,7 @@
    "Detail": "Emulsifiers and stabilisers - cellulose and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E466",
@@ -1203,7 +1203,7 @@
    "Detail": "Emulsifiers and stabilisers - cellulose and derivatives",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "It is increasing the cholesterol"
+   "Side_effect": "It is increasing the cholesterol"
  },
  {
    "E_no": "E470",
@@ -1212,7 +1212,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E471",
@@ -1221,7 +1221,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E472",
@@ -1230,7 +1230,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E473",
@@ -1239,7 +1239,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E474",
@@ -1248,7 +1248,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E475",
@@ -1257,7 +1257,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "It is not harmful"
+   "Side_effect": "It is not harmful"
  },
  {
    "E_no": "E477",
@@ -1266,7 +1266,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E481",
@@ -1275,7 +1275,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E482",
@@ -1284,7 +1284,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "E483",
@@ -1293,7 +1293,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant fat, haram if it is from animal fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "107",
@@ -1302,7 +1302,7 @@
    "Detail": "Colors",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "128",
@@ -1311,7 +1311,7 @@
    "Detail": "Colors",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "133",
@@ -1320,7 +1320,7 @@
    "Detail": "Colors",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "154",
@@ -1329,7 +1329,7 @@
    "Detail": "Colors",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "155",
@@ -1338,7 +1338,7 @@
    "Detail": "Colors",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "234",
@@ -1347,7 +1347,7 @@
    "Detail": "Preservative - other",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "262",
@@ -1356,7 +1356,7 @@
    "Detail": "Miscellaneous - acids and their salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "296",
@@ -1365,7 +1365,7 @@
    "Detail": "Miscellaneous - acids and their salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "297",
@@ -1374,7 +1374,7 @@
    "Detail": "Miscellaneous - acids and their salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "350",
@@ -1383,7 +1383,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "351",
@@ -1392,7 +1392,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "352",
@@ -1401,7 +1401,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "353",
@@ -1410,7 +1410,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "355",
@@ -1419,7 +1419,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "363",
@@ -1428,7 +1428,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "370",
@@ -1437,7 +1437,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "375",
@@ -1446,7 +1446,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "380",
@@ -1455,7 +1455,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "381",
@@ -1464,7 +1464,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "385",
@@ -1473,7 +1473,7 @@
    "Detail": "Miscellaneous - salts of malic acid",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "416",
@@ -1482,7 +1482,7 @@
    "Detail": "Emulsifiers and stabilisers",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "430",
@@ -1491,7 +1491,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "431",
@@ -1500,7 +1500,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "432",
@@ -1509,7 +1509,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "433",
@@ -1518,7 +1518,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "434",
@@ -1527,7 +1527,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "435",
@@ -1536,7 +1536,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "436",
@@ -1545,7 +1545,7 @@
    "Detail": "Emulsifiers and stabilisers - fatty acid derivatives",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "476",
@@ -1554,7 +1554,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "478",
@@ -1563,7 +1563,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "491",
@@ -1572,7 +1572,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "492",
@@ -1581,7 +1581,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "493",
@@ -1590,7 +1590,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "494",
@@ -1599,7 +1599,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "495",
@@ -1608,7 +1608,7 @@
    "Detail": "Emulsifiers and stabilisers - salts or esters of fatty acids",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is 100% from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "500",
@@ -1617,7 +1617,7 @@
    "Detail": "Miscellaneous - acids and salts: carbonates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "501",
@@ -1626,7 +1626,7 @@
    "Detail": "Miscellaneous - acids and salts: carbonates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "503",
@@ -1635,7 +1635,7 @@
    "Detail": "Miscellaneous - acids and salts: carbonates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "504",
@@ -1644,7 +1644,7 @@
    "Detail": "Miscellaneous - acids and salts: carbonates",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "507",
@@ -1653,7 +1653,7 @@
    "Detail": "Miscellaneous - acids and salts: hydrochloric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "508",
@@ -1662,7 +1662,7 @@
    "Detail": "Miscellaneous - acids and salts: hydrochloric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "509",
@@ -1671,7 +1671,7 @@
    "Detail": "Miscellaneous - acids and salts: hydrochloric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "510",
@@ -1680,7 +1680,7 @@
    "Detail": "Miscellaneous - acids and salts: hydrochloric acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "513",
@@ -1689,7 +1689,7 @@
    "Detail": "Miscellaneous - acids and salts: sulphuric |acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "514",
@@ -1698,7 +1698,7 @@
    "Detail": "Miscellaneous - acids and salts: sulphuric |acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "515",
@@ -1707,7 +1707,7 @@
    "Detail": "Miscellaneous - acids and salts: sulphuric |acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "516",
@@ -1716,7 +1716,7 @@
    "Detail": "Miscellaneous - acids and salts: sulphuric |acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "518",
@@ -1725,7 +1725,7 @@
    "Detail": "Miscellaneous - acids and salts: sulphuric |acid and its salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "524",
@@ -1734,7 +1734,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "525",
@@ -1743,7 +1743,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "526",
@@ -1752,7 +1752,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "527",
@@ -1761,7 +1761,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "528",
@@ -1770,7 +1770,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "529",
@@ -1779,7 +1779,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "530",
@@ -1788,7 +1788,7 @@
    "Detail": "Miscellaneous - alkalis",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "535",
@@ -1797,7 +1797,7 @@
    "Detail": "Miscellaneous - other salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "536",
@@ -1806,7 +1806,7 @@
    "Detail": "Miscellaneous - other salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "540",
@@ -1815,7 +1815,7 @@
    "Detail": "Miscellaneous - other salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "541",
@@ -1824,7 +1824,7 @@
    "Detail": "Miscellaneous - other salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "542",
@@ -1833,7 +1833,7 @@
    "Detail": "Miscellaneous - anticaking agents",
    "Color_Id": 3,
    "Status": "Haram",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "544",
@@ -1842,7 +1842,7 @@
    "Detail": "Miscellaneous - anticaking agents",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from minerals, haram if it is from animal bones",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "545",
@@ -1851,7 +1851,7 @@
    "Detail": "Miscellaneous - anticaking agents",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "551",
@@ -1860,7 +1860,7 @@
    "Detail": "Mscellaneous - silicon salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "552",
@@ -1869,7 +1869,7 @@
    "Detail": "Miscellaneous - silicon salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "553",
@@ -1878,7 +1878,7 @@
    "Detail": "Miscellaneous - silicon salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "554",
@@ -1887,7 +1887,7 @@
    "Detail": "Miscellaneous - silicon salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "556",
@@ -1896,7 +1896,7 @@
    "Detail": "Miscellaneous - silicon salts",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from minerals, haram if it is from animal bones",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "558",
@@ -1905,7 +1905,7 @@
    "Detail": "Miscellaneous - silicon salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "559",
@@ -1914,7 +1914,7 @@
    "Detail": "Miscellaneous - silicon salts",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "570",
@@ -1923,7 +1923,7 @@
    "Detail": "Miscellaneous - other compounds",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if the source is from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "572",
@@ -1932,7 +1932,7 @@
    "Detail": "Miscellaneous - other compounds",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if the source is from plant fat, haram if it is from animal fat",
-   "Side effect": "May increase hyperactivity in affected children."
+   "Side_effect": "May increase hyperactivity in affected children."
  },
  {
    "E_no": "575",
@@ -1941,7 +1941,7 @@
    "Detail": "Miscellaneous - other comounds",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "576",
@@ -1950,7 +1950,7 @@
    "Detail": "Miscellaneous - other compounds",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "577",
@@ -1959,7 +1959,7 @@
    "Detail": "Miscellaneous - other compounds",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "578",
@@ -1968,7 +1968,7 @@
    "Detail": "Miscellaneous - other compounds",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "620",
@@ -1977,7 +1977,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if it is from plant protein, haram if it is from animal protein",
-   "Side effect": "Headaches"
+   "Side_effect": "Headaches"
  },
  {
    "E_no": "621",
@@ -1986,7 +1986,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if all ingredients including culture media to grow culture from halal source,|haram if media is from pork fat",
-   "Side effect": "Headaches"
+   "Side_effect": "Headaches"
  },
  {
    "E_no": "622",
@@ -1995,7 +1995,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if all ingredients including culture media to grow culture from halal source,|haram if media is from pork fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "623",
@@ -2004,7 +2004,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if all ingredients including culture media to grow culture from halal source,|haram if media is from pork fat",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "627",
@@ -2013,7 +2013,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "631",
@@ -2022,7 +2022,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "635",
@@ -2031,7 +2031,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "636",
@@ -2040,7 +2040,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if no alcohol is used in the process",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "637",
@@ -2049,7 +2049,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if no alcohol is used in the process",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "900",
@@ -2058,7 +2058,7 @@
    "Detail": "Miscellaneous - flavour enhancers",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if no alcohol is used in the process",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "901",
@@ -2067,7 +2067,7 @@
    "Detail": "Miscellaneous - glazing agents",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "903",
@@ -2076,7 +2076,7 @@
    "Detail": "Miscellaneous - glazing agents",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "904",
@@ -2085,7 +2085,7 @@
    "Detail": "Miscellaneous - glazing agents",
    "Color_Id": 2,
    "Status": "Mushbooh, under consultation with islamic scholars, a gummy secretion material from the pores of an insect coccus lacca that feed on palas trees in india and south asia. This gummy material is called lac.",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "905",
@@ -2094,7 +2094,7 @@
    "Detail": "Miscellaneous - glazing agents",
    "Color_Id": 1,
    "Status": "Halal if no alcohol is used",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "907",
@@ -2103,7 +2103,7 @@
    "Detail": "Miscellaneous - glazing agents",
    "Color_Id": 2,
    "Status": "Mushbooh, halal if obtained from halal source",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "920",
@@ -2112,7 +2112,7 @@
    "Detail": "Miscellaneous - compounds used to |treat flour",
    "Color_Id": 2,
    "Status": "Mushbooh, haram if it is obtained from human hair, halal if it is made from halal synthetic material. No opinion if it is made from chicken |feathers",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "924",
@@ -2121,7 +2121,7 @@
    "Detail": "Miscellaneous - compounds used to |treat flour",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "925",
@@ -2130,7 +2130,7 @@
    "Detail": "Miscellaneous - compounds used to |treat flour",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "926",
@@ -2139,7 +2139,7 @@
    "Detail": "Miscellaneous - compounds used to |treat flour",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  },
  {
    "E_no": "927",
@@ -2148,6 +2148,6 @@
    "Detail": "Miscellaneous - compounds used to |treat flour",
    "Color_Id": 1,
    "Status": "Halal",
-   "Side effect": "nullable"
+   "Side_effect": "nullable"
  }
 ]
