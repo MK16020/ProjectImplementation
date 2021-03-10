@@ -64,8 +64,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="E - Numbers are Numbers sometimes found on food labels in the European Union (GB, France, Germany, Spain, Italy, Portugal, etc.) The code indicates an ingredient which is some type of food additive.  The E indicates that it is a European Union approved food additive.  If you never saw one before, probably you don't live in the European Union.  Other countries have different food labeling laws.  Even inside the EU, sometimes they use the code, sometimes they still write the word."
-                android:layout_marginTop="2sp"
+                android:text="E - numbers are numbers that are sometimes found on food labels in the European Union. The symbol indicates a type of food additive and E indicates that it is a food additive approved by the European Union."               android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText"
