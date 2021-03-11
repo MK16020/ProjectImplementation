@@ -58,21 +58,21 @@
 
         <TextView
             android:id="@+id/details"
-            android:layout_width="wrap_content"
+            android:layout_width="117dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
             android:text="Details:"
             android:textColor="@color/black"
-            android:textSize="24dp"
-            android:layout_marginTop="80dp"/>
+            android:textSize="24dp" />
 
         <TextView
             android:id="@+id/status"
-            android:layout_width="wrap_content"
+            android:layout_width="106dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
             android:text="Status:"
             android:textColor="@color/black"
-            android:textSize="24dp"
-            android:layout_marginTop="95dp"/>
+            android:textSize="24dp" />
 
         <TextView
             android:id="@+id/sideeff"
