@@ -19,8 +19,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Detail"
-            android:textColor="#800080"
-            android:textSize="24dp" />
+            android:textStyle="bold"
+            android:textColor="#f956"
+            android:textSize="35sp" />
     </androidx.appcompat.widget.Toolbar>
 
     <Button
