@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-numberApp</string>
+    <string name="history_fragment">جزء التاريخ</string>
+    <string name="camera_fragment">جزء الكاميره</string>
+    <string name="information_fragment">جزء المعلومات</string>
+    <string name="search_fragment">جزء البحث</string>
+    <string name="search">البحث</string>
+    <string name="camera">الكاميره</string>
+    <string name="information">المعلومات</string>
+    <string name="history">التاريخ</string>
+    <string name="important_information">معلومات هامة</string>
+    <string name="hello_blank_fragment">جزء فارغ</string>
+    <string name="open_camera">فتح الكاميره</string>
+    <string name="todo">إلى</string>
+    <string name="convert_image_to_text">تحويل الصوره إلى نص</string>
+    <string name="welcome">اهلاً بك</string>
+    <string name="do_you_know_what_is_in_your_food">هل تعلم ما في طعامك ؟!</string>
+    <string name="e_number_detector_helps_you_to_make_knowledgeable_decisions_of_what_food_to_buy">يساعدك كاشف الأرقام الإلكترونية على اتخاذ قرارات مدروسة بشأن الطعام الذي يجب شراؤه</string>
+    <string name="start">ابداء</string>
+    <string name="foodaddivies">ما هي المضافات الغذائية ؟!</string>
+    <string name="foodaddivies2">المضافات الغذائية هي مواد تستخدم لتحسين مظهر ونكهة الطعام وإطالة العمر الافتراضي. بعضها آمن ، لكن بعضها يمكن أن يكون شديد الخطورة ويسبب آثارًا جانبية أو ردود فعل تحسسية أو فرط نشاط.</string>
+    <string name="whatenumbers">ما هو الرقم الإلكتروني؟</string>
+    <string name="enumbermeanings">E - الأرقام هي أرقام توجد أحيانًا على ملصقات الطعام في الاتحاد الأوروبي (GB ، فرنسا ، ألمانيا ، إسبانيا ، إيطاليا ، البرتغال ، إلخ.) يشير الرمز إلى أحد المكونات التي تعد نوعًا من المضافات الغذائية. تشير E إلى أنها مادة مضافة غذائية معتمدة من الاتحاد الأوروبي. إذا لم تره من قبل ، فمن المحتمل أنك لا تعيش في الاتحاد الأوروبي. الدول الأخرى لديها قوانين مختلفة لوضع العلامات الغذائية. حتى داخل الاتحاد الأوروبي ، يستخدمون أحيانًا الرمز ، وفي بعض الأحيان لا يزالون يكتبون الكلمة.</string>
+    <string name="halal">حلال</string>
+    <string name="mushbooh">مشبوه</string>
+    <string name="haram">حرام</string>
+    <string name="halalmeaning">الحلال هو مصطلح قرآني يعني أنه مسموح أو قانوني. الأطعمة والمشروبات الحلال مسموح بها من قبل الله تعالى. أكل الحلال واجب على كل مسلم.</string>
+    <string name="harammeaning">الحرم لفظ قرآني يعني حرام. يحرم الله الأطعمة والمشروبات المحرمة تمامًا. الأكل الحرام حرام على كل مسلم.</string>
+    <string name="Mushboohmeaning">مشبوه هو مصطلح عربي يعني الاشتباه وتغطي منطقة رمادية بين الحلال والحرام. إذا كان المرء لا يعرف حالة الحلال أو الأذى لطعام أو شراب معين ، فإن مثل هذا الطعام أو الشراب مشكوك فيه. المسلم الملتزم يمنع نفسه من أكل المشكوك فيه.</string>
+</resources>
