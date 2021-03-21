@@ -124,6 +124,14 @@
             android:textColor="#FF6200EE"
             android:textSize="24dp"
             android:layout_marginTop="120dp"/>
+        <Button
+            android:id="@+id/share_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#778899"
+            android:text="Share"
+            android:layout_marginTop="35dp"
+            />
     </LinearLayout>
 </LinearLayout>
 

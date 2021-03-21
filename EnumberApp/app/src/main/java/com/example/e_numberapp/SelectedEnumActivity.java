@@ -15,13 +15,14 @@ import android.graphics.Color;
 public class SelectedEnumActivity extends AppCompatActivity {
 
 
-    Button  colorbt;
 
     TextView tvname;
     TextView tvtype;
     TextView tvstatus;
     TextView tvsideeff;
 
+    Button  colorbt;
+    Button  sharebt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,11 @@ public class SelectedEnumActivity extends AppCompatActivity {
 
         Intent intent = getIntent();//open this activity over the others
         EnumModel enumModel = (EnumModel) intent.getSerializableExtra("data");
+
+        tvname = findViewById(R.id.selectedname);
+        tvtype = findViewById(R.id.selecteddetails);
+        tvstatus = findViewById(R.id.selectedstatus);
+        tvsideeff = findViewById(R.id.selectedsideeff);
 
 
         colorbt = findViewById(R.id.color);
@@ -57,10 +63,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
             }
         });
 
-        tvname = findViewById(R.id.selectedname);
-        tvtype = findViewById(R.id.selecteddetails);
-        tvstatus = findViewById(R.id.selectedstatus);
-        tvsideeff = findViewById(R.id.selectedsideeff);
+
 
         if (intent.getExtras() != null){
 
@@ -70,6 +73,30 @@ public class SelectedEnumActivity extends AppCompatActivity {
             tvstatus.setText(enumModel.getStatus());
             tvsideeff.setText(enumModel.getSide_effect());
         }
+
+        sharebt=findViewById(R.id.share_bt);
+        sharebt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String name =tvname.getText().toString();
+                String type =tvtype.getText().toString();
+                String status =tvstatus.getText().toString();
+                String sideeff =tvsideeff.getText().toString();
+                //Create a new Intent object
+                Intent infoIntent = new Intent();
+                // Set the action to send
+                infoIntent.setAction(Intent.ACTION_SEND);
+                infoIntent.putExtra(Intent.EXTRA_TEXT, "Name:"+name+" \n Type:"+type+"\n Status:"+status+"\n Side effect:"+sideeff+"\n");
+                // Create another intent to open ta chooser list
+                Intent shareIntent = Intent.createChooser(infoIntent,"Choose an app from this list");
+                //Start the activity with the chooser intent
+                startActivity(shareIntent);
+            }
+        });
+
+
+
+
     }
 
 }
