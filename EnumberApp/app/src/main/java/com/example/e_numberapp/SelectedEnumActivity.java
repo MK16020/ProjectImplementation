@@ -78,6 +78,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
         sharebt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String e = enumModel.getE_no();
                 String name =tvname.getText().toString();
                 String type =tvtype.getText().toString();
                 String status =tvstatus.getText().toString();
@@ -86,8 +87,12 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 Intent infoIntent = new Intent();
                 // Set the action to send
                 infoIntent.setAction(Intent.ACTION_SEND);
-                infoIntent.putExtra(Intent.EXTRA_TEXT, "Name:"+name+" \n Type:"+type+"\n Status:"+status+"\n Side effect:"+sideeff+"\n");
-                // Create another intent to open ta chooser list
+                infoIntent.putExtra("E_number:",e);
+                infoIntent.putExtra("Name:",name);
+                infoIntent.putExtra("Type:",type);
+                infoIntent.putExtra("Status:",status);
+                infoIntent.putExtra("Side effect:",sideeff);
+                // Create another intent to open the chooser list
                 Intent shareIntent = Intent.createChooser(infoIntent,"Choose an app from this list");
                 //Start the activity with the chooser intent
                 startActivity(shareIntent);

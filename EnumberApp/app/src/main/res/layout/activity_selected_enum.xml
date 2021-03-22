@@ -130,7 +130,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            android:background="@drawable/share" />
+            android:background="@drawable/share"
+            android:layout_marginLeft="90dp"/>
     </LinearLayout>
 </LinearLayout>
 
