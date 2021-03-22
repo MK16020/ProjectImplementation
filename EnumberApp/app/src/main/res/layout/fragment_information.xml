@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="What Is Food Additives ?!"
+                android:text="@string/foodaddivies"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
                 android:textColor="#FFA62F"
@@ -44,7 +44,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Any substance that is added to food and is intended to improve preservation, taste, and appearance or to extend the shelf life. Some are safe, but some can be very dangerous and cause side effects, allergic reactions, or hyperactivity"
+                android:text="@string/foodaddivies2"
                 android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="What Is E-Number?"
+                android:text="@string/whatenumbers"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
                 android:textColor="#FFA62F"
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="E - numbers are numbers that are sometimes found on food labels in the European Union. The symbol indicates a type of food additive and E indicates that it is a food additive approved by the European Union."
+                android:text="@string/enumbermeanings"
                 android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Halal"
+                android:text="@string/halal"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
                 android:textColor="#FFA62F"
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Halal is a Quranic term that means permissible or legitimate, meaning that these foods are permitted by God Almighty. Eating Halal is a duty on every Muslim."
+                android:text="@string/halalmeaning"
                 android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mushbooh"
+                android:text="@string/mushbooh"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
                 android:textColor="#FFA62F"
@@ -107,7 +107,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mashbouh is an Arabic term that means suspicion of the existence of a gray area between Halaal and Haraam, as one suspects that the food is halal or not. An observant Muslim avoids ​questionable food ."
+                android:text="@string/Mushboohmeaning"
                 android:layout_marginTop="2sp"
                 android:textColor="#43C6DB"
                 android:textSize="20sp"
@@ -117,7 +117,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Haram"
+                android:text="@string/haram"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
                 android:textColor="#FFA62F"
@@ -128,7 +128,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Haram is a Quranic term meaning forbidden. Forbidden foods are unlawful by Allah. Eating Haram is prohibited for every Muslim."
+                android:text="@string/harammeaning"
                 android:layout_marginTop="2sp"
                 android:layout_marginBottom="10sp"
                 android:textColor="#43C6DB"

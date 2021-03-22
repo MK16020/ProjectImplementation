@@ -18,4 +18,14 @@
     <string name="do_you_know_what_is_in_your_food">Do you know what is in your food ?!</string>
     <string name="e_number_detector_helps_you_to_make_knowledgeable_decisions_of_what_food_to_buy">E-number Detector helps you to make knowledgeable decisions of what food to buy</string>
     <string name="start">Start</string>
+    <string name="foodaddivies">What Is Food Additives ?!</string>
+    <string name="foodaddivies2">Any substance that is added to food and is intended to improve preservation, taste, and appearance or to extend the shelf life. Some are safe, but some can be very dangerous and cause side effects, allergic reactions, or hyperactivity</string>
+    <string name="whatenumbers">What Is E-Number?</string>
+    <string name="enumbermeanings">E - numbers are numbers that are sometimes found on food labels in the European Union. The symbol indicates a type of food additive and E indicates that it is a food additive approved by the European Union.</string>
+    <string name="halal">Halal</string>
+    <string name="halalmeaning">Halal is a Quranic term that means permissible or legitimate, meaning that these foods are permitted by God Almighty. Eating Halal is a duty on every Muslim.</string>
+    <string name="mushbooh">Mushbooh</string>
+    <string name="Mushboohmeaning">Mashbouh is an Arabic term that means suspicion of the existence of a gray area between Halaal and Haraam, as one suspects that the food is halal or not. An observant Muslim avoids ​questionable food .</string>
+    <string name="haram">Haram</string>
+    <string name="harammeaning">Haram is a Quranic term meaning forbidden. Forbidden foods are unlawful by Allah. Eating Haram is prohibited for every Muslim.</string>
 </resources>
