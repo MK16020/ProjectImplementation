@@ -14,4 +14,8 @@
     <string name="open_camera" />
     <string name="todo" />
     <string name="convert_image_to_text">convert image to text</string>
+    <string name="welcome">Welcome</string>
+    <string name="do_you_know_what_is_in_your_food">Do you know what is in your food ?!</string>
+    <string name="e_number_detector_helps_you_to_make_knowledgeable_decisions_of_what_food_to_buy">E-number Detector helps you to make knowledgeable decisions of what food to buy</string>
+    <string name="start">Start</string>
 </resources>
