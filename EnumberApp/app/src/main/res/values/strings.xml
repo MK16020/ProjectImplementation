@@ -28,4 +28,11 @@
     <string name="haram">Haram</string>
     <string name="harammeaning">Haram is a Quranic term meaning forbidden. Forbidden foods are unlawful by Allah. Eating Haram is prohibited for every Muslim.</string>
     <string name="open_cameraa">open_camera</string>
+    <string name="detail">Detail</string>
+    <string name="click_to_know_the_status">Click to know the status</string>
+    <string name="name">name:</string>
+    <string name="details">details:</string>
+    <string name="status">Status:</string>
+    <string name="side_effect">Side effect:</string>
+
 </resources>

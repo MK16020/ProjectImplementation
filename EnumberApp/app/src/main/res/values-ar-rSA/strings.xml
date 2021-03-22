@@ -28,4 +28,11 @@
     <string name="halalmeaning">الحلال هو مصطلح قرآني يعني أنه مسموح أو قانوني. الأطعمة والمشروبات الحلال مسموح بها من قبل الله تعالى. أكل الحلال واجب على كل مسلم.</string>
     <string name="harammeaning">الحرم لفظ قرآني يعني حرام. يحرم الله الأطعمة والمشروبات المحرمة تمامًا. الأكل الحرام حرام على كل مسلم.</string>
     <string name="Mushboohmeaning">مشبوه هو مصطلح عربي يعني الاشتباه وتغطي منطقة رمادية بين الحلال والحرام. إذا كان المرء لا يعرف حالة الحلال أو الأذى لطعام أو شراب معين ، فإن مثل هذا الطعام أو الشراب مشكوك فيه. المسلم الملتزم يمنع نفسه من أكل المشكوك فيه.</string>
+
+    <string name="detail">التفاصيل</string>
+    <string name="click_to_know_the_status">انقر لمعرفة الحالة</string>
+    <string name="name">الأسم:</string>
+    <string name="details">التفاصيل:</string>
+    <string name="status">الحالة:</string>
+    <string name="side_effect">اعراض جانبية:</string>
 </resources>
