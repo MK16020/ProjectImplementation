@@ -11,7 +11,6 @@
     <string name="important_information">Important Information</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="open_camera" />
     <string name="todo" />
     <string name="convert_image_to_text">convert image to text</string>
     <string name="welcome">Welcome</string>
@@ -28,4 +27,5 @@
     <string name="Mushboohmeaning">Mashbouh is an Arabic term that means suspicion of the existence of a gray area between Halaal and Haraam, as one suspects that the food is halal or not. An observant Muslim avoids ​questionable food .</string>
     <string name="haram">Haram</string>
     <string name="harammeaning">Haram is a Quranic term meaning forbidden. Forbidden foods are unlawful by Allah. Eating Haram is prohibited for every Muslim.</string>
+    <string name="open_cameraa">open_camera</string>
 </resources>
