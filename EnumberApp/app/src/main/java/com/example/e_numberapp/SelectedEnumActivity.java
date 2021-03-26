@@ -86,19 +86,19 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 String status =tvstatus.getText().toString();
                 String sideeff =tvsideeff.getText().toString();
                 //Create a new Intent object
-                Intent infoIntent = new Intent();
+                Intent info = new Intent();
                 // Set the action to send
-                infoIntent.setAction(Intent.ACTION_SEND);
+                info.setAction(Intent.ACTION_SEND);
                 //details
-                infoIntent.putExtra(Intent.EXTRA_TEXT,e);
-                infoIntent.putExtra(Intent.EXTRA_TEXT,name);
-                infoIntent.putExtra(Intent.EXTRA_TEXT,type);
-                infoIntent.putExtra(Intent.EXTRA_TEXT,status);
-                infoIntent.putExtra(Intent.EXTRA_TEXT,sideeff);
+                info.putExtra(Intent.EXTRA_TEXT,e);
+                info.putExtra(Intent.EXTRA_TEXT,name);
+                info.putExtra(Intent.EXTRA_TEXT,type);
+                info.putExtra(Intent.EXTRA_TEXT,status);
+                info.putExtra(Intent.EXTRA_TEXT,sideeff);
                 // Set type
-                infoIntent.setType("text/plain");
+                info.setType("text/plain");
                 //Start the activity with the chooser intent
-                startActivity(Intent.createChooser(infoIntent,getResources().getText(R.string.app_name)));
+                startActivity(Intent.createChooser(info,getResources().getText(R.string.app_name)));
 
             }
         });
