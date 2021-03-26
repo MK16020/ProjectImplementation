@@ -35,4 +35,6 @@
     <string name="details">التفاصيل:</string>
     <string name="status">الحالة:</string>
     <string name="side_effect">اعراض جانبية:</string>
+    <string name="capture_image">التقاط الصورة</string>
+    <string name="detect_image">كشف الصورة</string>
 </resources>
