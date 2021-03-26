@@ -22,7 +22,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
     TextView tvsideeff;
 
     Button  colorbt;
-    Button  sharebt;
+    Button sharebtn1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,28 +74,22 @@ public class SelectedEnumActivity extends AppCompatActivity {
             tvsideeff.setText(enumModel.getSide_effect());
         }
 
-        sharebt=findViewById(R.id.share_bt);
-        sharebt.setOnClickListener(new View.OnClickListener() {
+        sharebtn1=findViewById(R.id.sharebtn);
+        sharebtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String e = enumModel.getE_no();
-                String name =tvname.getText().toString();
-                String type =tvtype.getText().toString();
-                String status =tvstatus.getText().toString();
-                String sideeff =tvsideeff.getText().toString();
-                //Create a new Intent object
-                Intent infoIntent = new Intent();
-                // Set the action to send
-                infoIntent.setAction(Intent.ACTION_SEND);
-                infoIntent.putExtra("E_number:",e);
-                infoIntent.putExtra("Name:",name);
-                infoIntent.putExtra("Type:",type);
-                infoIntent.putExtra("Status:",status);
-                infoIntent.putExtra("Side effect:",sideeff);
-                // Create another intent to open the chooser list
-                Intent shareIntent = Intent.createChooser(infoIntent,"Choose an app from this list");
-                //Start the activity with the chooser intent
-                startActivity(shareIntent);
+
+                Intent shareIntent= new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                String sharebody = "Download this Application now: https://play.google.com/store/apps/details?id=com.simplescan.scanner&hl=ar&gl=US";
+                String sharesub ="CCC Course App";
+
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT,sharesub);
+                shareIntent.putExtra(Intent.EXTRA_TEXT,sharebody);
+
+                startActivity(Intent.createChooser(shareIntent, "Share Using"));
+
+
             }
         });
 
