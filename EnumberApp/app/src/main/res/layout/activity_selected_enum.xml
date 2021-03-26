@@ -130,12 +130,15 @@
                 android:textSize="24dp" />
 
             <Button
-                android:id="@+id/share_bt"
+                android:id="@+id/sharebtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="1dp"
-                android:layout_marginTop="40dp"
-                android:background="@drawable/share" />
+                android:text="share "
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#FF89" />
         </LinearLayout>
     </LinearLayout>
 
