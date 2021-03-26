@@ -66,8 +66,5 @@ dependencies {
     //noinspection OutdatedLibrary
     implementation 'com.google.firebase:firebase-ml-vision:15.0.0'
 
-
-
-
-
 }
+apply plugin: 'com.google.gms.google-services'
