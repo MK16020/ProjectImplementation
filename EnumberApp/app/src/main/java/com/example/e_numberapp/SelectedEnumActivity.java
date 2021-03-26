@@ -12,9 +12,10 @@ import android.widget.TextView;
 import android.view.View;
 import android.graphics.Color;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SelectedEnumActivity extends AppCompatActivity {
-
-
 
     TextView tvname;
     TextView tvtype;
@@ -79,19 +80,30 @@ public class SelectedEnumActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent shareIntent= new Intent(Intent.ACTION_SEND);
-                shareIntent.setType("text/plain");
-                String sharebody = "Download this Application now: https://play.google.com/store/apps/details?id=com.simplescan.scanner&hl=ar&gl=US";
-                String sharesub ="CCC Course App";
-
-                shareIntent.putExtra(Intent.EXTRA_SUBJECT,sharesub);
-                shareIntent.putExtra(Intent.EXTRA_TEXT,sharebody);
-
-                startActivity(Intent.createChooser(shareIntent, "Share Using"));
-
+                String e = enumModel.getE_no();
+                String name =tvname.getText().toString();
+                String type =tvtype.getText().toString();
+                String status =tvstatus.getText().toString();
+                String sideeff =tvsideeff.getText().toString();
+                //Create a new Intent object
+                Intent infoIntent = new Intent();
+                // Set the action to send
+                infoIntent.setAction(Intent.ACTION_SEND);
+                //details
+                infoIntent.putExtra(Intent.EXTRA_TEXT,e);
+                infoIntent.putExtra(Intent.EXTRA_TEXT,name);
+                infoIntent.putExtra(Intent.EXTRA_TEXT,type);
+                infoIntent.putExtra(Intent.EXTRA_TEXT,status);
+                infoIntent.putExtra(Intent.EXTRA_TEXT,sideeff);
+                // Set type
+                infoIntent.setType("text/plain");
+                //Start the activity with the chooser intent
+                startActivity(Intent.createChooser(infoIntent,getResources().getText(R.string.app_name)));
 
             }
         });
+
+
 
 
 
