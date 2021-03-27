@@ -12,18 +12,22 @@ import android.widget.TextView;
 import android.view.View;
 import android.graphics.Color;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class SelectedEnumActivity extends AppCompatActivity {
 
-    TextView tvname;
-    TextView tvtype;
-    TextView tvstatus;
-    TextView tvsideeff;
+    TextView tvname,tvtype,tvstatus,tvsideeff;
 
-    Button  colorbt;
-    Button sharebtn1;
+    Button  colorbt,sharebtn,historybt;
+
+    private FirebaseDatabase db = FirebaseDatabase.getInstance();
+    private DatabaseReference root = db.getReference().child("history");
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,15 +52,18 @@ public class SelectedEnumActivity extends AppCompatActivity {
               switch (enumModel.getColor_Id()){
                   case 1:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(getResources().getColor(R.color.green));
+                      //colorbt.setBackgroundColor(getResources().getColor(R.color.green));
+                      colorbt.setBackgroundResource(R.color.green);
                       break;
                   case 2:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
+                      //colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
+                      colorbt.setBackgroundResource(R.color.yellow);
                       break;
                   case 3:
                       colorbt.setText(enumModel.getE_no().toString());
-                      colorbt.setBackgroundColor(getResources().getColor(R.color.red));
+                      //colorbt.setBackgroundColor(getResources().getColor(R.color.red));
+                      colorbt.setBackgroundResource(R.color.red);
                       break;
               }
 
@@ -74,17 +81,34 @@ public class SelectedEnumActivity extends AppCompatActivity {
             tvstatus.setText(enumModel.getStatus());
             tvsideeff.setText(enumModel.getSide_effect());
         }
+        String e = enumModel.getE_no();
+        String name =tvname.getText().toString();
+        String type =tvtype.getText().toString();
+        String status =tvstatus.getText().toString();
+        String sideeff =tvsideeff.getText().toString();
 
-        sharebtn1=findViewById(R.id.sharebtn);
-        sharebtn1.setOnClickListener(new View.OnClickListener() {
+        historybt=findViewById(R.id.historybt);
+        historybt.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View v) {
 
-                String e = enumModel.getE_no();
-                String name =tvname.getText().toString();
-                String type =tvtype.getText().toString();
-                String status =tvstatus.getText().toString();
-                String sideeff =tvsideeff.getText().toString();
+                HashMap<String , String> historyenum = new HashMap<>();
+
+                historyenum.put("E_no" , e);
+                historyenum.put("Name" , name);
+                historyenum.put("Type" , type);
+                historyenum.put("Status" , status);
+                historyenum.put("Side_effect" , sideeff);
+
+                root.push().setValue(historyenum);
+            }
+        });
+        sharebtn=findViewById(R.id.sharebtn);
+        sharebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
                 //Create a new Intent object
                 Intent info = new Intent();
                 // Set the action to send
