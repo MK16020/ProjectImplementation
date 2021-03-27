@@ -38,11 +38,10 @@ public class history extends Fragment implements EnumAdapter.SelectedEnum{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v =  inflater.inflate(R.layout.fragment_history, container, false);
 
-        toolbar = v.findViewById(R.id.toolbar);
+
         recyclerView = v.findViewById(R.id.recyclerview);//where the information will be
 
-        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("");
+
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);//prepare recycler to take info
