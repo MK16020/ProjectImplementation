@@ -113,7 +113,7 @@ public class search extends Fragment implements EnumAdapter.SelectedEnum{
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {//
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {///
         int id = item.getItemId();
 
         if (id == R.id.search_view){
