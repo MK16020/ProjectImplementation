@@ -36,5 +36,7 @@
     <string name="side_effect">Side effect:</string>
     <string name="capture_image">Capture Image</string>
     <string name="detect_image">Detect Image</string>
+    <string name="add_to_history">Add to History</string>
+    <string name="share">share</string>
 
 </resources>

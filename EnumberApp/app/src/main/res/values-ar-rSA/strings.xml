@@ -37,4 +37,7 @@
     <string name="side_effect">اعراض جانبية:</string>
     <string name="capture_image">التقاط الصورة</string>
     <string name="detect_image">كشف الصورة</string>
+
+    <string name="add_to_history">الإضافة إلى تاريخ</string>
+    <string name="share">مشاركة</string>
 </resources>

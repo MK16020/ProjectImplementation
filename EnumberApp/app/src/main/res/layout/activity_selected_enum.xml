@@ -92,7 +92,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="40dp"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Add to History"
+                android:text="@string/add_to_history"
                 android:textAllCaps="false" />
 
 
@@ -151,7 +151,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="35dp"
                     android:layout_marginTop="40dp"
-                    android:text="share "
+                    android:text="@string/share"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
