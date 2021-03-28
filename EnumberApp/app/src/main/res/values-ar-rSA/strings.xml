@@ -2,22 +2,22 @@
 <resources>
     <string name="app_name">E-numberApp</string>
     <string name="history_fragment">جزء التاريخ</string>
-    <string name="camera_fragment">جزء الكاميره</string>
+    <string name="camera_fragment">جزء الكاميرا</string>
     <string name="information_fragment">جزء المعلومات</string>
     <string name="search_fragment">جزء البحث</string>
     <string name="search">البحث</string>
-    <string name="camera">الكاميره</string>
+    <string name="camera">الكاميرا</string>
     <string name="information">المعلومات</string>
-    <string name="history">التاريخ</string>
+    <string name="history">السجل</string>
     <string name="important_information">معلومات هامة</string>
     <string name="hello_blank_fragment">جزء فارغ</string>
-    <string name="open_cameraa"> فتح الكاميره</string>
+    <string name="open_cameraa"> فتح الكاميرا</string>
     <string name="todo">إلى</string>
-    <string name="convert_image_to_text">تحويل الصوره إلى نص</string>
+    <string name="convert_image_to_text">تحويل الصورة إلى نص</string>
     <string name="welcome">اهلاً بك</string>
     <string name="do_you_know_what_is_in_your_food">هل تعلم ما في طعامك ؟!</string>
     <string name="e_number_detector_helps_you_to_make_knowledgeable_decisions_of_what_food_to_buy">يساعدك كاشف الأرقام الإلكترونية على اتخاذ قرارات مدروسة بشأن الطعام الذي يجب شراؤه</string>
-    <string name="start">ابداء</string>
+    <string name="start">ابدأ</string>
     <string name="foodaddivies">ما هي المضافات الغذائية ؟!</string>
     <string name="foodaddivies2">المضافات الغذائية هي مواد تستخدم لتحسين مظهر ونكهة الطعام وإطالة العمر الافتراضي. بعضها آمن ، لكن بعضها يمكن أن يكون شديد الخطورة ويسبب آثارًا جانبية أو ردود فعل تحسسية أو فرط نشاط.</string>
     <string name="whatenumbers">ما هو الرقم الإلكتروني؟</string>
@@ -34,10 +34,10 @@
     <string name="name">الأسم:</string>
     <string name="details">التفاصيل:</string>
     <string name="status">الحالة:</string>
-    <string name="side_effect">اعراض جانبية:</string>
+    <string name="side_effect">الأعراض الجانبية:</string>
     <string name="capture_image">التقاط الصورة</string>
     <string name="detect_image">كشف الصورة</string>
 
-    <string name="add_to_history">الإضافة إلى تاريخ</string>
+    <string name="add_to_history">الإضافة إلى السجل</string>
     <string name="share">مشاركة</string>
 </resources>
