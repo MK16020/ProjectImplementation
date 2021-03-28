@@ -36,7 +36,7 @@
                 android:text="@string/foodaddivies"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
-                android:textColor="#FFA62F"
+                android:textColor="#571B7E"
                 android:textSize="25sp"
                 tools:ignore="HardcodedText"
                 />
@@ -57,7 +57,7 @@
                 android:text="@string/whatenumbers"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
-                android:textColor="#FFA62F"
+                android:textColor="#571B7E"
                 android:textSize="25sp"
                 tools:ignore="HardcodedText"
                 />
@@ -78,7 +78,7 @@
                 android:text="@string/halal"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
-                android:textColor="#FFA62F"
+                android:textColor="#571B7E"
                 android:textSize="25sp"
                 tools:ignore="HardcodedText"
                 />
@@ -99,7 +99,7 @@
                 android:text="@string/mushbooh"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
-                android:textColor="#FFA62F"
+                android:textColor="#571B7E"
                 android:textSize="25sp"
                 tools:ignore="HardcodedText"
                 />
@@ -120,7 +120,7 @@
                 android:text="@string/haram"
                 android:layout_marginTop="30sp"
                 android:textStyle="bold"
-                android:textColor="#FFA62F"
+                android:textColor="#571B7E"
                 android:textSize="25sp"
                 tools:ignore="HardcodedText"
                 />
