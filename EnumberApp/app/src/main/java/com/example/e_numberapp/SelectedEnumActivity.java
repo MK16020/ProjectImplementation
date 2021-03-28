@@ -41,8 +41,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
         tvtype = findViewById(R.id.selecteddetails);
         tvstatus = findViewById(R.id.selectedstatus);
         tvsideeff = findViewById(R.id.selectedsideeff);
-
-
+        
         colorbt = findViewById(R.id.color);
         colorbt.setOnClickListener(new View.OnClickListener() { //set the color to know the status
 
