@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:text="@string/detail"
             android:textStyle="bold"
-            android:textColor="#f956"
+            android:textColor="#E91E63"
             android:textSize="35sp" />
     </androidx.appcompat.widget.Toolbar>
 
@@ -100,7 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Enumber"
-                android:textColor="#FF6200EE"
+                android:textColor="#571B7E"
                 android:textSize="24dp" />
 
             <TextView
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="69dp"
                 android:text="Enumber"
-                android:textColor="#C12283"
+                android:textColor="#571B7E"
                 android:textSize="24dp" />
 
             <TextView
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="64dp"
                 android:text="Enumber"
-                android:textColor="#FF6200EE"
+                android:textColor="#571B7E"
                 android:textSize="24dp" />
 
             <TextView
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="77dp"
                 android:text="Enumber"
-                android:textColor="#C12283"
+                android:textColor="#571B7E"
                 android:textSize="24dp" />
 
 
