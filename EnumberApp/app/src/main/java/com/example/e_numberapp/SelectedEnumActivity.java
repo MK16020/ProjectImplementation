@@ -50,17 +50,18 @@ public class SelectedEnumActivity extends AppCompatActivity {
                       colorbt.setText(enumModel.getE_no().toString());
                       colorbt.setBackgroundColor(getResources().getColor(R.color.green));
                       break;
+
                   case 2:
                       colorbt.setText(enumModel.getE_no().toString());
                       colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
                       break;
+
                   case 3:
                       colorbt.setText(enumModel.getE_no().toString());
                       colorbt.setBackgroundColor(getResources().getColor(R.color.red));
                       break;
+
               }
-
-
             }
         });
 
@@ -102,11 +103,6 @@ public class SelectedEnumActivity extends AppCompatActivity {
 
             }
         });
-
-
-
-
-
 
     }
 
