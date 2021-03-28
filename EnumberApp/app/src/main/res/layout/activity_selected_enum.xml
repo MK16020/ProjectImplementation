@@ -85,6 +85,16 @@
                 android:textColor="@color/black"
                 android:textSize="24dp" />
 
+            <Button
+                android:id="@+id/historybt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Add to History"
+                android:textAllCaps="false" />
+
 
         </LinearLayout>
 
@@ -129,32 +139,24 @@
                 android:text="Enumber"
                 android:textColor="#FF6200EE"
                 android:textSize="24dp" />
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-            <Button
-                android:id="@+id/historybt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAllCaps="false"
-                android:text="Add to History"
-                android:backgroundTint="@color/colorAccent"
-                android:layout_marginTop="50dp"
-                />
 
-            <Button
-                android:id="@+id/sharebtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:text="share "
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                android:layout_marginTop="50dp"
-                android:textColor="@android:color/white"
-                app:backgroundTint="#FF89" />
-        </LinearLayout>
+                <Button
+                    android:id="@+id/sharebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="40dp"
+                    android:text="share "
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FF89" />
+            </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
