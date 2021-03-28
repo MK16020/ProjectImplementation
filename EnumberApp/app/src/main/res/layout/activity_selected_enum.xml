@@ -43,8 +43,8 @@
         >
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="435dp"
+            android:layout_width="176dp"
+            android:layout_height="494dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="80dp"
             android:layout_weight="1"
@@ -87,10 +87,10 @@
 
             <Button
                 android:id="@+id/historybt"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="45dp"
                 android:backgroundTint="@color/colorAccent"
                 android:text="@string/add_to_history"
                 android:textAllCaps="false" />
@@ -100,7 +100,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="495dp"
             android:layout_marginTop="80dp"
             android:layout_weight="2"
             android:orientation="vertical">
@@ -119,14 +119,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="69dp"
                 android:text="Enumber"
-                android:textColor="#FF6200EE"
+                android:textColor="#C12283"
                 android:textSize="24dp" />
 
             <TextView
                 android:id="@+id/selectedstatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="66dp"
+                android:layout_marginTop="64dp"
                 android:text="Enumber"
                 android:textColor="#FF6200EE"
                 android:textSize="24dp" />
@@ -135,28 +135,23 @@
                 android:id="@+id/selectedsideeff"
                 android:layout_width="215dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="79dp"
+                android:layout_marginTop="77dp"
                 android:text="Enumber"
-                android:textColor="#FF6200EE"
+                android:textColor="#C12283"
                 android:textSize="24dp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/sharebtn"
+                android:layout_width="129dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="45dp"
+                android:text="@string/share"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:backgroundTint="#FF89" />
 
-                <Button
-                    android:id="@+id/sharebtn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginTop="40dp"
-                    android:text="@string/share"
-                    android:textAllCaps="false"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    app:backgroundTint="#FF89" />
-            </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
