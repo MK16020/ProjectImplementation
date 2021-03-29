@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:text="@string/click_to_know_the_status"
         android:textColor="@color/black"
-        android:background="@color/colorAccent"
+        android:backgroundTint="#7183E6"
         android:layout_gravity="center"
         android:textAllCaps="false"
         />
