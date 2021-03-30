@@ -1,16 +1,12 @@
 package com.example.e_numberapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
-import android.graphics.Color;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -58,7 +54,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
                   case 2:
                       colorbt.setText(enumModel.getE_no().toString());
                       //colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
-                      colorbt.setBackgroundResource(R.color.yellow);
+                      colorbt.setBackgroundResource(R.color.orange);
                       break;
 
                   case 3:
