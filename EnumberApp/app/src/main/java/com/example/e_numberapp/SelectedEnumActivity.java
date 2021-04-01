@@ -48,19 +48,22 @@ public class SelectedEnumActivity extends AppCompatActivity {
                   case 1:
                       colorbt.setText(enumModel.getE_no().toString());
                       //colorbt.setBackgroundColor(getResources().getColor(R.color.green));
-                      colorbt.setBackgroundResource(R.color.green);
+                      //colorbt.setBackgroundResource(R.color.green);
+                      colorbt.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.green));
                       break;
 
                   case 2:
                       colorbt.setText(enumModel.getE_no().toString());
                       //colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
-                      colorbt.setBackgroundResource(R.color.orange);
+                     // colorbt.setBackgroundResource(R.color.orange);
+                      colorbt.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.orange));
                       break;
 
                   case 3:
                       colorbt.setText(enumModel.getE_no().toString());
                       //colorbt.setBackgroundColor(getResources().getColor(R.color.red));
-                      colorbt.setBackgroundResource(R.color.red);
+                     // colorbt.setBackgroundResource(R.color.red);
+                      colorbt.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.red));
                       break;
 
               }
@@ -109,12 +112,19 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 Intent info = new Intent();
                 // Set the action to send
                 info.setAction(Intent.ACTION_SEND);
-                //details
-                info.putExtra(Intent.EXTRA_TEXT,e);
+
+               /* info.putExtra(Intent.EXTRA_TEXT,e);
                 info.putExtra(Intent.EXTRA_TEXT,name);
                 info.putExtra(Intent.EXTRA_TEXT,type);
                 info.putExtra(Intent.EXTRA_TEXT,status);
-                info.putExtra(Intent.EXTRA_TEXT,sideeff);
+                info.putExtra(Intent.EXTRA_TEXT,sideeff);*/
+
+                //cearte an ArrayList of details
+                ArrayList<EnumModel>list= new ArrayList<EnumModel>();
+                //set data to the ArrayList
+                list.add(enumModel);
+                //details
+                info.putExtra("enum", list);
                 // Set type
                 info.setType("text/plain");
                 //Start the activity with the chooser intent
