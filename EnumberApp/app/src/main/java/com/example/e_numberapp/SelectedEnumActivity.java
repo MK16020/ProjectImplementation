@@ -107,12 +107,19 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 // Set the action to send
                 info.setAction(Intent.ACTION_SEND);
 
-                info.putExtra(Intent.EXTRA_TEXT,e);
+              /*  info.putExtra(Intent.EXTRA_TEXT,e);
                 info.putExtra(Intent.EXTRA_TEXT,name);
                 info.putExtra(Intent.EXTRA_TEXT,type);
                 info.putExtra(Intent.EXTRA_TEXT,status);
-                info.putExtra(Intent.EXTRA_TEXT,sideeff);
+                info.putExtra(Intent.EXTRA_TEXT,sideeff);*/
 
+                String text = e+"\n";
+                text += name+"\n";
+                text += type+"\n";
+                text += status+"\n";
+                text += sideeff+"\n";
+
+                info.putExtra(Intent.EXTRA_TEXT,text);
                 // Set type
                 info.setType("text/plain");
                 //Start the activity with the chooser intent
