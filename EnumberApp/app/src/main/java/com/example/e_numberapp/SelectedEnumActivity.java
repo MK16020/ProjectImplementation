@@ -106,7 +106,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 Intent info = new Intent();
                 // Set the action to send
                 info.setAction(Intent.ACTION_SEND);
-                
+
                 String text = e+"\n";
                 text += name+"\n";
                 text += type+"\n";
