@@ -49,7 +49,8 @@
             android:text="@string/capture_image"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:backgroundTint="#E91E63"/>
 
         <Button
             android:id="@+id/detect_text_image_btn"
@@ -59,7 +60,8 @@
             android:text="@string/detect_image"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:backgroundTint="#E91E63"/>
 
     </LinearLayout>
 
