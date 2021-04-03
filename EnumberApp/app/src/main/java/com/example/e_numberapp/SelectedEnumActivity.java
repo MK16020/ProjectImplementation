@@ -1,16 +1,12 @@
 package com.example.e_numberapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
-import android.graphics.Color;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -48,26 +44,29 @@ public class SelectedEnumActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-              switch (enumModel.getColor_Id()){
-                  case 1:
-                      colorbt.setText(enumModel.getE_no().toString());
-                      //colorbt.setBackgroundColor(getResources().getColor(R.color.green));
-                      colorbt.setBackgroundResource(R.color.green);
-                      break;
+                switch (enumModel.getColor_Id()){
+                    case 1:
+                        colorbt.setText(enumModel.getE_no().toString());
+                        //colorbt.setBackgroundColor(getResources().getColor(R.color.green));
+                        //colorbt.setBackgroundResource(R.color.green);
+                        colorbt.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.green));
+                        break;
 
-                  case 2:
-                      colorbt.setText(enumModel.getE_no().toString());
-                      //colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
-                      colorbt.setBackgroundResource(R.color.yellow);
-                      break;
+                    case 2:
+                        colorbt.setText(enumModel.getE_no().toString());
+                        //colorbt.setBackgroundColor(getResources().getColor(R.color.yellow));
+                        // colorbt.setBackgroundResource(R.color.orange);
+                        colorbt.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.orange));
+                        break;
 
-                  case 3:
-                      colorbt.setText(enumModel.getE_no().toString());
-                      //colorbt.setBackgroundColor(getResources().getColor(R.color.red));
-                      colorbt.setBackgroundResource(R.color.red);
-                      break;
+                    case 3:
+                        colorbt.setText(enumModel.getE_no().toString());
+                        //colorbt.setBackgroundColor(getResources().getColor(R.color.red));
+                        // colorbt.setBackgroundResource(R.color.red);
+                        colorbt.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.color.red));
+                        break;
 
-              }
+                }
             }
         });
 
@@ -104,6 +103,7 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 root.push().setValue(historyenum);
             }
         });
+
         sharebtn=findViewById(R.id.sharebtn);
         sharebtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,12 +113,20 @@ public class SelectedEnumActivity extends AppCompatActivity {
                 Intent info = new Intent();
                 // Set the action to send
                 info.setAction(Intent.ACTION_SEND);
-                //details
-                info.putExtra(Intent.EXTRA_TEXT,e);
+
+              /*  info.putExtra(Intent.EXTRA_TEXT,e);
                 info.putExtra(Intent.EXTRA_TEXT,name);
                 info.putExtra(Intent.EXTRA_TEXT,type);
                 info.putExtra(Intent.EXTRA_TEXT,status);
-                info.putExtra(Intent.EXTRA_TEXT,sideeff);
+                info.putExtra(Intent.EXTRA_TEXT,sideeff);*/
+
+                String text = e+"\n";
+                text += name+"\n";
+                text += type+"\n";
+                text += status+"\n";
+                text += sideeff+"\n";
+
+                info.putExtra(Intent.EXTRA_TEXT,text);
                 // Set type
                 info.setType("text/plain");
                 //Start the activity with the chooser intent
@@ -126,6 +134,8 @@ public class SelectedEnumActivity extends AppCompatActivity {
 
             }
         });
+
+
 
     }
 
