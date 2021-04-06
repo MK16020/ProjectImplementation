@@ -20,6 +20,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.gms.tasks.OnFailureListener;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -32,12 +33,13 @@ import com.google.firebase.ml.vision.text.FirebaseVisionTextDetector;
 import static android.app.Activity.RESULT_OK;
 
 
-public class camera extends Fragment {
+public class camera extends Fragment{
 
-    private Button captureImageBtn, detectTextBtn;
+    private Button captureImageBtn, detectTextBtn, searchTextBtn;
     private ImageView imageView;
     private TextView textView;
     Bitmap imageBitmap;
+    String[] cameraResult = null;
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
 
@@ -47,6 +49,7 @@ public class camera extends Fragment {
 
         captureImageBtn = (Button) v.findViewById(R.id.capture_image_btn);
         detectTextBtn = (Button) v.findViewById(R.id.detect_text_image_btn);
+        searchTextBtn = (Button) v.findViewById(R.id.search_text_image_btn);
         imageView = (ImageView) v.findViewById(R.id.image_view);
         textView =(TextView) v.findViewById(R.id.text_display);
 
@@ -64,6 +67,18 @@ public class camera extends Fragment {
             @Override
             public void onClick(View v) {
                 detectTextFromImage ();
+            }
+        });
+
+        searchTextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if((String) textView.getText()!=null){
+                    searchTextFromImage((String) textView.getText());
+                }
+                else {
+                    Toast.makeText(getActivity(), "Error: there is no text found" , Toast.LENGTH_LONG).show();
+                }
             }
         });
 
@@ -97,7 +112,8 @@ public class camera extends Fragment {
         firebaseVisionTextDetector.detectInImage(firrebaseVisionImage).addOnSuccessListener(new OnSuccessListener<FirebaseVisionText>() {
             @Override
             public void onSuccess(FirebaseVisionText firebaseVisionText) {
-                displayTextFromImage(firebaseVisionText);
+                displayTextFromImage(firebaseVisionText);//put it in the new page.y
+                //open new page here.
 
             }
         }).addOnFailureListener(new OnFailureListener() {
@@ -111,6 +127,8 @@ public class camera extends Fragment {
 
     private void displayTextFromImage(FirebaseVisionText firebaseVisionText)
     {
+        String text=null;
+
         List<FirebaseVisionText.Block> blockList = firebaseVisionText.getBlocks();
         if(blockList.size() == 0 ){
             Toast.makeText(getActivity(), "No text foung in image " , Toast.LENGTH_LONG).show();
@@ -119,11 +137,48 @@ public class camera extends Fragment {
         else {
             for(FirebaseVisionText.Block block: firebaseVisionText.getBlocks()){
 
-                String text = block.getText();
-                textView.setText(text);
-
+                text = block.getText();
+                textView.setText(text);// no need for this.
             }
+
         }
+    }
+    private void searchTextFromImage(String text){
+        String [] result;
+
+
+        text.replaceAll("[\\W]|_", "");
+        text.replaceAll("( )+", " ");
+        result=text.split(" ");
+        int num= 0;
+
+        for(int i=0; i<= result.length; i++){
+            num=0;
+            for(int j=0; i<= result[i].length(); j++){
+                if (result[i].length()!=4){
+                    continue;
+                }
+                else if (Character.isDigit(result[i].charAt(j))){
+                    num++;
+                }
+            }
+            if(result[i].contains("E") && num == 3 ){
+                cameraResult[i]=result[i];
+            }
+
+        }
+
+
+        if(cameraResult != null){
+            //create new page here.
+
+            startActivity(new Intent(getActivity(), Result.class).putExtra(String.valueOf(cameraResult), "camera"));
+
+        }
+        else{
+            Toast.makeText(getActivity(), "No E-numbers found " , Toast.LENGTH_LONG).show();
+        }
+
     }
 
 }
