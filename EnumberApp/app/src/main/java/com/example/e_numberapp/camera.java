@@ -146,6 +146,7 @@ public class camera extends Fragment{
     private void searchTextFromImage(String text){
         String [] result;
 
+        Toast.makeText(getActivity(), "entered" , Toast.LENGTH_LONG).show();
 
         text.replaceAll("[\\W]|_", "");
         text.replaceAll("( )+", " ");
