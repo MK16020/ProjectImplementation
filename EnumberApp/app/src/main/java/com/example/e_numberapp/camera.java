@@ -73,8 +73,8 @@ public class camera extends Fragment{
         searchTextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if((String) textView.getText()!=null){
-                    searchTextFromImage((String) textView.getText());
+                if( textView.getText().toString()!=null){
+                    searchTextFromImage( textView.getText().toString());
                 }
                 else {
                     Toast.makeText(getActivity(), "Error: there is no text found" , Toast.LENGTH_LONG).show();
