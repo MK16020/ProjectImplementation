@@ -28,12 +28,12 @@
         <ImageView
             android:id="@+id/image_view"
             android:layout_width="match_parent"
-            android:layout_height="323dp" />
+            android:layout_height="204dp" />
 
         <TextView
             android:id="@+id/text_display"
             android:layout_width="match_parent"
-            android:layout_height="123dp"
+            android:layout_height="78dp"
             android:layout_below="@id/image_view"
             android:layout_margin="10dp"
             android:maxLines="10"
