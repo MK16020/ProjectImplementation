@@ -3,6 +3,8 @@ package com.example.e_numberapp;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,15 +39,15 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         //open this activity over the others
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            cameraResult = extras.getStringArray("camera");}
+            cameraResult = extras.getStringArray("cam1");}
 
-        recyclerView = findViewById(R.id.recyclerview2);//where the information will be
+        recyclerView = findViewById(R.id.recview2);//where the information will be
 
 
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);//prepare recycler to take info
-        recyclerView.addItemDecoration(new DividerItemDecoration(context,DividerItemDecoration.VERTICAL));// how they are displayed
+        recyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));// how they are displayed
 
         databaseReference = FirebaseDatabase.getInstance().getReference("enumbers");//database reference
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {//take the info from database to the arraylist
@@ -68,13 +70,15 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
     }
 
     public void filterData(List<EnumModel> enumModelList, String[] cameraResult){
-        int i=0;
         for (EnumModel enumlist : enumModelList) {
+            for (int i=0; i<cameraResult.length; i++){
+                if (enumlist.getE_no().equals(cameraResult[i])) {
+                    Log.d("zainab", "we are in getE_no "+cameraResult[i]);
+                    modifiedList.add(enumlist);
+                }
 
-            if (enumlist.getE_no().equals(cameraResult[i])) {
-                modifiedList.add(enumlist);
             }
-            i++;
+
         }
         adapt(modifiedList);
     }

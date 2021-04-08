@@ -39,7 +39,7 @@ public class camera extends Fragment{
     private ImageView imageView;
     private TextView textView;
     Bitmap imageBitmap;
-    String[] cameraResult = null;
+    String[] cameraResult= new  String[100];
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
 
@@ -145,7 +145,7 @@ public class camera extends Fragment{
     }
     private void searchTextFromImage(String text){
         String [] result;
-
+        Log.d("zoooz", "we are in searchTextFromImage ");
         Toast.makeText(getActivity(), "entered" , Toast.LENGTH_LONG).show();
 
         text.replaceAll("[\\W]|_", "");
@@ -153,11 +153,14 @@ public class camera extends Fragment{
         result=text.split(" ");
         int num= 0;
 
-        for(int i=0; i<= result.length; i++){
+        for(int i=0; i< result.length; i++){
+            Log.d("zoooz", "we are in outer for loop ");
             num=0;
-            for(int j=0; i<= result[i].length(); j++){
+            for(int j=0; j< result[i].length(); j++){
+                Log.d("zoooz", "we are in inner  for loop ");
+
                 if (result[i].length()!=4){
-                    continue;
+                    break;
                 }
                 else if (Character.isDigit(result[i].charAt(j))){
                     num++;
@@ -172,8 +175,8 @@ public class camera extends Fragment{
 
         if(cameraResult != null){
             //create new page here.
-
-            startActivity(new Intent(getActivity(), Result.class).putExtra(String.valueOf(cameraResult), "camera"));
+            Log.d("zoooz", "we are in creat new page ");
+            startActivity(new Intent(getActivity(), Result.class).putExtra(String.valueOf(cameraResult), "cam1"));
 
         }
         else{
