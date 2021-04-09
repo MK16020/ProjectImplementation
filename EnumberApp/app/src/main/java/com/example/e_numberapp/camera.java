@@ -159,14 +159,17 @@ public class camera extends Fragment{
             for(int j=0; j< result[i].length(); j++){
                 Log.d("zoooz", "we are in inner  for loop ");
 
-                if (result[i].length()!=4){
+
+                if (!result[i].contains("e")){
                     break;
                 }
                 else if (Character.isDigit(result[i].charAt(j))){
                     num++;
                 }
             }
-            if(result[i].contains("E") && num == 3 ){
+            if(result[i].contains("E") && num != 3 ){
+                Log.d("zoooz", "we are in in the resulte "+result[i]);
+
                 cameraResult[i]=result[i];
             }
 
@@ -176,7 +179,7 @@ public class camera extends Fragment{
         if(cameraResult != null){
             //create new page here.
             Log.d("zoooz", "we are in creat new page ");
-            startActivity(new Intent(getActivity(), Result.class).putExtra(String.valueOf(cameraResult), "cam1"));
+            startActivity(new Intent(getActivity(), Result.class).putExtra("cam1", cameraResult));
 
         }
         else{
