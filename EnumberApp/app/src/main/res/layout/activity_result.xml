@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:weightSum="9"
-    android:background="@drawable/background_bg"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_bg"
+    android:orientation="vertical"
+    android:weightSum="9"
     tools:context=".Result">
 
     <LinearLayout
-        android:layout_width="643dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="196dp"
+            android:layout_height="59dp"
             android:layout_gravity="center"
             android:layout_marginLeft="150dp"
-            android:text="Result"
+            android:text="@string/result1"
             android:textColor="@color/white"
             android:textSize="35sp"
             android:textStyle="bold" />
@@ -27,7 +27,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="634dp"
+        android:layout_width="388dp"
         android:layout_height="0dp"
         android:layout_margin="10dp"
         android:layout_weight="8"
@@ -36,7 +36,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recview2"
-            android:layout_width="match_parent"
+            android:layout_width="390dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
             android:layout_marginTop="3dp" />

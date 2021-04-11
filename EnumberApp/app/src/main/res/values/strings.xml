@@ -38,5 +38,8 @@
     <string name="detect_image">Detect Image</string>
     <string name="add_to_history">Add to History</string>
     <string name="share">share</string>
+    <string name="result1">Result</string>
+    <string name="search_text">search text</string>
+
 
 </resources>
