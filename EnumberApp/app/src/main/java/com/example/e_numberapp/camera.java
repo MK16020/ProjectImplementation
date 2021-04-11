@@ -39,6 +39,8 @@ public class camera extends Fragment{
     private ImageView imageView;
     private TextView textView;
     Bitmap imageBitmap;
+
+
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
 
@@ -143,8 +145,9 @@ public class camera extends Fragment{
         }
     }
     private void searchTextFromImage(String text){
-        String[] cameraResult= new  String[100];
+        ArrayList<String> cameraResult = new ArrayList<String>();
         String [] result;
+        String [] finalres = new String[15];
         Log.d("zoooz", "we are in searchTextFromImage ");
         Toast.makeText(getActivity(), "entered" , Toast.LENGTH_LONG).show();
 
@@ -168,18 +171,19 @@ public class camera extends Fragment{
             }
             if(result[i].contains("E") && num == 3 ){
 
-                cameraResult[i]= result[i];
-                Log.d("zoooz", "we are in in the resulte "+ cameraResult[i]);
+                cameraResult.add(result[i]) ;
+                Log.d("zoooz", "we are in in the resulte "+ cameraResult.get(i));
 
             }
 
         }
 
 
-        if(cameraResult[0]!=null){
+        if(cameraResult.get(0)!=null){
             //create new page here.
             Log.d("zoooz", "we are in creat new page ");
-            startActivity(new Intent(getActivity(), Result.class).putExtra("cam1", cameraResult));
+            finalres = (String[]) cameraResult.toArray();
+            startActivity(new Intent(getActivity(), Result.class).putExtra("cam1", finalres));
 
         }
         else{
