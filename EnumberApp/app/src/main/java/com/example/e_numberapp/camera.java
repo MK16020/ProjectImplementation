@@ -147,13 +147,14 @@ public class camera extends Fragment{
     private void searchTextFromImage(String text){
         ArrayList<String> cameraResult = new ArrayList<String>();
         String [] result;
-        String [] finalres = new String[15];
+        String [] finalres;
         Log.d("zoooz", "we are in searchTextFromImage ");
         Toast.makeText(getActivity(), "entered" , Toast.LENGTH_LONG).show();
 
-        text.replaceAll("[\\W]|_", "");
+        text.replaceAll("[\\W]|_", " ");
         text.replaceAll("( )+", " ");
         result=text.split(" ");
+
         int num= 0;
 
         for(int i=0; i< result.length; i++){
@@ -162,7 +163,7 @@ public class camera extends Fragment{
             for(int j=0; j< result[i].length(); j++){
                 Log.d("zoooz", "we are in inner  for loop ");
 
-                if (!result[i].contains("e")){
+                if (!result[i].contains("e") || !result[i].contains("E")){
                     break;
                 }
                 else if (Character.isDigit(result[i].charAt(j))){
@@ -170,16 +171,17 @@ public class camera extends Fragment{
                 }
             }
             if(result[i].contains("E") && num == 3 ){
+                Log.d("zoooz", "we are in in the resulte "+ result[i] );
 
                 cameraResult.add(result[i]) ;
-                Log.d("zoooz", "we are in in the resulte "+ cameraResult.get(i));
+                //Log.d("zoooz", "we are in in 3 resulte "+ cameraResult.get(i));
 
             }
 
         }
 
 
-        if(cameraResult.get(0)!=null){
+        if(!cameraResult.isEmpty()){
             //create new page here.
             Log.d("zoooz", "we are in creat new page ");
             finalres = (String[]) cameraResult.toArray();

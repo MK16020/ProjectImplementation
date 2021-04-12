@@ -41,6 +41,7 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         if (extras != null) {
             Log.d("zainab", "it is not null "+ extras.getStringArray("cam1"));
             cameraResult = extras.getStringArray("cam1");}*/
+
         Intent i = getIntent();
         cameraResult = (String[]) i.getSerializableExtra("cam1");
 
