@@ -152,6 +152,7 @@ public class camera extends Fragment{
         Toast.makeText(getActivity(), "entered" , Toast.LENGTH_LONG).show();
 
         text.replaceAll("[\\W]|_", " ");
+        text.replace('-', ' ');
         text.replaceAll("( )+", " ");
         result=text.split(" ");
 
@@ -171,7 +172,7 @@ public class camera extends Fragment{
                 }
             }
             if(result[i].contains("E") && num == 3 ){
-                Log.d("zoooz", "we are in in the resulte "+ result[i] );
+                Log.d("zoooz", "we are in in the resulte " + result[i] );
 
                 cameraResult.add(result[i]) ;
                 //Log.d("zoooz", "we are in in 3 resulte "+ cameraResult.get(i));
