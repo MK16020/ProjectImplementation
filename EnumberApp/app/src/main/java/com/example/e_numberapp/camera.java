@@ -40,7 +40,7 @@ public class camera extends Fragment implements Serializable {
     private ImageView imageView;
     private TextView textView;
     Bitmap imageBitmap;
-
+    String [] result = new String[30];
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
 
@@ -146,7 +146,7 @@ public class camera extends Fragment implements Serializable {
     }
     private void searchTextFromImage(String text){
         ArrayList<String> cameraText = new ArrayList<String>();
-        String [] result = new String[30];
+
 
         int j=0;
 
@@ -172,15 +172,6 @@ public class camera extends Fragment implements Serializable {
         else{
             Toast.makeText(getActivity(), "No E-numbers found " , Toast.LENGTH_LONG).show();
         }
-
-
-
-
-
-
-
-
-
 
     }
 

@@ -28,124 +28,123 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="656dp"
-                android:layout_margin="10dp"
-                android:layout_weight="8"
-                android:orientation="vertical"
-                android:background="@drawable/recyclerview_bg"
-                android:padding="10dp"
-                tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="656dp"
+            android:layout_margin="10dp"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:background="@drawable/recyclerview_bg"
+            android:padding="10dp"
+            tools:ignore="UselessParent">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30sp"
-                    android:text="@string/foodaddivies"
-                    android:textColor="#571B7E"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="@string/foodaddivies"
+                android:textColor="#571B7E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2sp"
-                    android:text="@string/foodaddivies2"
-                    android:textColor="#43C6DB"
-                    android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:text="@string/foodaddivies2"
+                android:textColor="#43C6DB"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2sp"
-                    android:text="@string/foodaddivies2"
-                    android:textColor="#43C6DB"
-                    android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:text="@string/foodaddivies2"
+                android:textColor="#43C6DB"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30sp"
-                    android:text="@string/whatenumbers"
-                    android:textColor="#571B7E"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="@string/whatenumbers"
+                android:textColor="#571B7E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2sp"
-                    android:text="@string/enumbermeanings"
-                    android:textColor="#43C6DB"
-                    android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:text="@string/enumbermeanings"
+                android:textColor="#43C6DB"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30sp"
-                    android:text="@string/halal"
-                    android:textColor="#571B7E"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="@string/halal"
+                android:textColor="#571B7E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2sp"
-                    android:text="@string/halalmeaning"
-                    android:textColor="#43C6DB"
-                    android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:text="@string/halalmeaning"
+                android:textColor="#43C6DB"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30sp"
-                    android:text="@string/mushbooh"
-                    android:textColor="#571B7E"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="@string/mushbooh"
+                android:textColor="#571B7E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2sp"
-                    android:text="@string/Mushboohmeaning"
-                    android:textColor="#43C6DB"
-                    android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:text="@string/Mushboohmeaning"
+                android:textColor="#43C6DB"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30sp"
-                    android:text="@string/haram"
-                    android:textColor="#571B7E"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    tools:ignore="HardcodedText"
-                    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:text="@string/haram"
+                android:textColor="#571B7E"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2sp"
-                    android:layout_marginBottom="10sp"
-                    android:text="@string/harammeaning"
-                    android:textColor="#43C6DB"
-                    android:textSize="20sp"
-                    tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:layout_marginBottom="10sp"
+                android:text="@string/harammeaning"
+                android:textColor="#43C6DB"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
 
 
-            </LinearLayout>
-        </ScrollView>
+        </LinearLayout>
+    </ScrollView>
     </LinearLayout>
 </LinearLayout>
