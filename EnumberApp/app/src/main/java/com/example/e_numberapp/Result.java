@@ -40,7 +40,9 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             Log.d("zainab", "it is not null "+ extras.getStringArray("cam1"));
-            camera cam = (camera) extras.getSerializable("cam1"); }
+            camera cam = (camera) extras.getSerializable("cam1");
+            
+        }
 
 
 
