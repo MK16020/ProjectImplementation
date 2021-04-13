@@ -43,7 +43,7 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
             if(extras == null) {
                 cameraResult= null;
             } else {
-                cameraResult= extras.getStringArray("cam1");
+                cameraResult= (String[]) extras.get("cam1");
             }
         } else {
             cameraResult= (String[]) savedInstanceState.getSerializable("cam1");
