@@ -37,10 +37,17 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         setContentView(R.layout.activity_result);
 
         //open this activity over the others
-        Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            Log.d("zainab", "it is not null "+ extras.getStringArray("cam1"));
+
+        if (savedInstanceState == null) {
+            Bundle extras = getIntent().getExtras();
+            if(extras == null) {
+                cameraResult= null;
+            } else {
+                cameraResult= extras.getStringArray("cam1");
             }
+        } else {
+            cameraResult= (String[]) savedInstanceState.getSerializable("cam1");
+        }
 
 
 
