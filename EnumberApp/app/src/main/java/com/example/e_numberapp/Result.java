@@ -29,7 +29,7 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
     List<EnumModel> modifiedList = new ArrayList<>();
     EnumAdapter enumAdapter;
     Context context;
-    String[] cameraResult;
+    String[] cameraResult = {"E401","E335","E132"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         Intent extras = getIntent();
         startActivity(extras);
 
-
+/*
         if (savedInstanceState == null) {
             if(extras == null) {
                 cameraResult= null;
@@ -53,16 +53,13 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
             }
         }
 
-
         else {
             //cameraResult= (String[]) savedInstanceState.getSerializable("cam1");
             cameraResult = (String []) extras.getSerializableExtra("cam1");
             Log.d("zainab", "we are in cameraResult2 "+cameraResult);
 
         }
-
-
-
+*/
 
         recyclerView = findViewById(R.id.recview2);//where the information will be
 
