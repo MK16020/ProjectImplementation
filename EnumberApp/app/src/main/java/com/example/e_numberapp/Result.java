@@ -40,7 +40,7 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         Intent extras = getIntent();
 
 
-        if (savedInstanceState == null) {
+        /*if (savedInstanceState == null) {
             if(extras == null) {
                 cameraResult= null;
             } else {
@@ -52,13 +52,15 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
             }
         }
 
+
         else {
             //cameraResult= (String[]) savedInstanceState.getSerializable("cam1");
             cameraResult = (String []) extras.getSerializableExtra("cam1");
             Log.d("zainab", "we are in cameraResult2 "+cameraResult);
 
-        }
-
+        }*/
+        camera camera = new camera();
+        cameraResult=camera.getResult();
 
 
         recyclerView = findViewById(R.id.recview2);//where the information will be
