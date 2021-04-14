@@ -20,6 +20,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.gms.tasks.OnFailureListener;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,14 +34,12 @@ import com.google.firebase.ml.vision.text.FirebaseVisionTextDetector;
 import static android.app.Activity.RESULT_OK;
 
 
-public class camera extends Fragment{
+public class camera extends Fragment implements Serializable {
 
     private Button captureImageBtn, detectTextBtn, searchTextBtn;
     private ImageView imageView;
     private TextView textView;
     Bitmap imageBitmap;
-
-
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
@@ -146,53 +145,42 @@ public class camera extends Fragment{
         }
     }
     private void searchTextFromImage(String text){
-        ArrayList<String> cameraResult = new ArrayList<String>();
-        String [] result;
-        String [] finalres;
-        Log.d("zoooz", "we are in searchTextFromImage ");
-        Toast.makeText(getActivity(), "entered" , Toast.LENGTH_LONG).show();
+        ArrayList<String> cameraText = new ArrayList<String>();
+        String [] result = new String[30];
 
-        text.replaceAll("[\\W]|_", " ");
-        text.replace('-', ' ');
-        text.replaceAll("( )+", " ");
-        result=text.split(" ");
+        int j=0;
 
-        int num= 0;
 
-        for(int i=0; i< result.length; i++){
-            Log.d("zoooz", "we are in outer for loop ");
-            num=0;
-            for(int j=0; j< result[i].length(); j++){
-                Log.d("zoooz", "we are in inner  for loop ");
+        for (int i=0; i<text.length()-4;i++){
 
-                if (!result[i].contains("e") || !result[i].contains("E")){
-                    break;
-                }
-                else if (Character.isDigit(result[i].charAt(j))){
-                    num++;
-                }
-            }
-            if(result[i].contains("E") && num == 3 ){
-                Log.d("zoooz", "we are in in the resulte " + result[i] );
+            if(text.charAt(i) == 'E' && Character.isDigit(text.charAt(i+1))
+                    && Character.isDigit(text.charAt(i+2))
+                    &&Character.isDigit(text.charAt(i+3))){
 
-                cameraResult.add(result[i]) ;
-                //Log.d("zoooz", "we are in in 3 resulte "+ cameraResult.get(i));
+                result[j]=text.substring(i,i+4);
+                Log.d("zoooz", "we are in text "+result[j] );
+               j++;
 
             }
+        }
+
+        if (result[0]!= null){
+            startActivity(new Intent(getActivity(), Result.class).putExtra("cam1", result));
 
         }
 
-
-        if(!cameraResult.isEmpty()){
-            //create new page here.
-            Log.d("zoooz", "we are in creat new page ");
-            finalres = (String[]) cameraResult.toArray();
-            startActivity(new Intent(getActivity(), Result.class).putExtra("cam1", finalres));
-
-        }
         else{
             Toast.makeText(getActivity(), "No E-numbers found " , Toast.LENGTH_LONG).show();
         }
+
+
+
+
+
+
+
+
+
 
     }
 

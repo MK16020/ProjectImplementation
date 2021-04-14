@@ -37,13 +37,12 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         setContentView(R.layout.activity_result);
 
         //open this activity over the others
-       /* Bundle extras = getIntent().getExtras();
+        Bundle extras = getIntent().getExtras();
         if (extras != null) {
             Log.d("zainab", "it is not null "+ extras.getStringArray("cam1"));
-            cameraResult = extras.getStringArray("cam1");}*/
+            cameraResult = }
 
-        Intent i = getIntent();
-        cameraResult = (String[]) i.getSerializableExtra("cam1");
+
 
         recyclerView = findViewById(R.id.recview2);//where the information will be
 
