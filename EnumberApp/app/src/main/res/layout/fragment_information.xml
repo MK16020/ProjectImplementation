@@ -14,7 +14,6 @@
         android:orientation="vertical"
         tools:ignore="ScrolViewSize">
 
-
         <TextView
             android:layout_width="381dp"
             android:layout_height="69dp"
