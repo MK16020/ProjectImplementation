@@ -38,14 +38,15 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
 
         //open this activity over the others
         Intent extras = getIntent();
+        startActivity(extras);
 
 
-        /*if (savedInstanceState == null) {
+        if (savedInstanceState == null) {
             if(extras == null) {
                 cameraResult= null;
             } else {
                 //cameraResult= (String[]) extras.get("cam1");
-              //  cameraResult = (String []) extras.getSerializableExtra("cam1");
+              // cameraResult = (String []) extras.getSerializableExtra("cam1");
 
                 Log.d("zainab", "we are in cameraResult1 "+cameraResult);
 
@@ -58,9 +59,9 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
             cameraResult = (String []) extras.getSerializableExtra("cam1");
             Log.d("zainab", "we are in cameraResult2 "+cameraResult);
 
-        }*/
-        camera camera = new camera();
-        cameraResult=camera.getResult();
+        }
+
+
 
 
         recyclerView = findViewById(R.id.recview2);//where the information will be

@@ -169,6 +169,7 @@ public class camera extends Fragment implements Serializable {
 
 
 
+
         }
 
         else{
@@ -176,10 +177,6 @@ public class camera extends Fragment implements Serializable {
         }
 
     }
-    public String[] getResult(){
-        return result;
-    }
-
 }
 
 
