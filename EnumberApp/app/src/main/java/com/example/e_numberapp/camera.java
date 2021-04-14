@@ -40,6 +40,7 @@ public class camera extends Fragment{
     private TextView textView;
     Bitmap imageBitmap;
 
+    
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
