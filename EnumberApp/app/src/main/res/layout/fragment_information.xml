@@ -53,16 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2sp"
                 android:text="@string/foodaddivies2"
-                android:textColor="#43C6DB"
-                android:textSize="20sp"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2sp"
-                android:text="@string/foodaddivies2"
-                android:textColor="#43C6DB"
+                android:textColor="#CD13A4BC"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
 
@@ -81,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2sp"
                 android:text="@string/enumbermeanings"
-                android:textColor="#43C6DB"
+                android:textColor="#CD13A4BC"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
 
@@ -100,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2sp"
                 android:text="@string/halalmeaning"
-                android:textColor="#43C6DB"
+                android:textColor="#CD13A4BC"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
 
@@ -119,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2sp"
                 android:text="@string/Mushboohmeaning"
-                android:textColor="#43C6DB"
+                android:textColor="#CD13A4BC"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
 
@@ -139,7 +130,7 @@
                 android:layout_marginTop="2sp"
                 android:layout_marginBottom="10sp"
                 android:text="@string/harammeaning"
-                android:textColor="#43C6DB"
+                android:textColor="#CD13A4BC"
                 android:textSize="20sp"
                 tools:ignore="HardcodedText" />
 
