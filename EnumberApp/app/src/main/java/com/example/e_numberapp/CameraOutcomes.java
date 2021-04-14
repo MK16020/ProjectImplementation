@@ -3,15 +3,18 @@ package com.example.e_numberapp;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.TextView;
-import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -22,7 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnum{
+public class CameraOutcomes extends Fragment implements EnumAdapter.SelectedEnum {
 
     RecyclerView recyclerView;
     DatabaseReference databaseReference;
@@ -34,62 +37,23 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
     String[] cameraResult;
     String text;
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
-
-        //open this activity over the others
-        Intent extras = getIntent();
-         int j=0;
-
-        textView = findViewById(R.id.text_display);
-        text= textView.getText().toString();
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View v =inflater.inflate(R.layout.fragment_camera_outcomes, container, false);
 
 
-        for (int i=0; i<text.length()-4;i++){
-
-            if(text.charAt(i) == 'E' && Character.isDigit(text.charAt(i+1))
-                    && Character.isDigit(text.charAt(i+2))
-                    &&Character.isDigit(text.charAt(i+3))){
-
-                cameraResult[j]=text.substring(i,i+4);
-                Log.d("zainab", "we are in text "+ cameraResult[j] );
-                j++;
-
-            }
-        }
+        Intent intent = getActivity().getIntent();
+        cameraResult = intent.getStringArrayExtra("cam1");
 
 
+        recyclerView = v.findViewById(R.id.recview22);//where the information will be
 
-
-
-/*
-        if (savedInstanceState == null) {
-            if(extras == null) {
-                cameraResult= null;
-            } else {
-                //cameraResult= (String[]) extras.get("cam1");
-              // cameraResult = (String []) extras.getSerializableExtra("cam1");
-
-                Log.d("zainab", "we are in cameraResult1 "+cameraResult);
-
-            }
-        }
-
-        else {
-            //cameraResult= (String[]) savedInstanceState.getSerializable("cam1");
-            cameraResult = (String []) extras.getSerializableExtra("cam1");
-            Log.d("zainab", "we are in cameraResult2 "+cameraResult);
-
-        }
-*/
-
-        recyclerView = findViewById(R.id.recview2);//where the information will be
-
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);//prepare recycler to take info
-        recyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));// how they are displayed
+        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(),DividerItemDecoration.VERTICAL));// how they are displayed
 
         databaseReference = FirebaseDatabase.getInstance().getReference("enumbers");//database reference
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {//take the info from database to the arraylist
@@ -109,6 +73,10 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
 
             }
         });
+
+
+        return v;
+
     }
 
     public void filterData(List<EnumModel> enumModelList, String[] cameraResult){
@@ -130,10 +98,9 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
         enumAdapter = new EnumAdapter(enumModelList,this);
         recyclerView.setAdapter(enumAdapter);
     }
-
     @Override
-    public void selectedEnum(EnumModel enumModel) {//identify the selected row
-        startActivity(new Intent(this, SelectedEnumActivity.class).putExtra("data",enumModel));
-    }
+    public void selectedEnum(EnumModel enumModel) {
+        startActivity(new Intent(getActivity(), SelectedEnumActivity.class).putExtra("data",enumModel));
 
+    }
 }
