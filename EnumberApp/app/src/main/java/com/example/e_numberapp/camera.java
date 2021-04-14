@@ -172,16 +172,7 @@ public class camera extends Fragment implements Serializable {
         else{
             Toast.makeText(getActivity(), "No E-numbers found " , Toast.LENGTH_LONG).show();
         }
-
-
-
-
-
-
-
-
-
-
+        
     }
 
 }
