@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background">
+    android:background="@drawable/background_bg">
 
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="#F5F5F5">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
 
         <TextView
             android:id="@+id/selectedTitle"
@@ -20,117 +21,126 @@
             android:layout_gravity="center"
             android:text="@string/detail"
             android:textStyle="bold"
-            android:textColor="#E91E63"
+            android:textColor="#FFFFFF"
             android:textSize="35sp" />
-    </androidx.appcompat.widget.Toolbar>
-
-    <Button
-        android:id="@+id/color"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/click_to_know_the_status"
-        android:textColor="@color/black"
-        android:backgroundTint="#E91E63"
-        android:layout_gravity="center"
-        android:textAllCaps="false"
-        />
+    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:orientation="horizontal"
+        android:layout_width="387dp"
+        android:layout_height="584dp"
+        android:layout_margin="10dp"
+        android:layout_weight="8"
+        android:background="@drawable/recyclerview_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-        >
-
-        <LinearLayout
-            android:layout_width="176dp"
-            android:layout_height="494dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="80dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/name"
-                android:textColor="@color/black"
-                android:textSize="24dp" />
-
-            <TextView
-                android:id="@+id/details"
-                android:layout_width="117dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
-                android:text="@string/details"
-                android:textColor="@color/black"
-                android:textSize="24dp" />
-
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="106dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="70dp"
-                android:text="@string/status"
-                android:textColor="@color/black"
-                android:textSize="24dp" />
-
-            <TextView
-                android:id="@+id/sideeff"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="80dp"
-                android:text="@string/side_effect"
-                android:textColor="@color/black"
-                android:textSize="24dp" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
+        <Button
+            android:id="@+id/color"
             android:layout_width="wrap_content"
-            android:layout_height="495dp"
-            android:layout_marginTop="80dp"
-            android:layout_weight="2"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#BA6C86"
+            android:text="@string/click_to_know_the_status"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
 
-            <TextView
-                android:id="@+id/selectedname"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="horizontal"
+
+            >
+
+            <LinearLayout
+                android:layout_width="176dp"
+                android:layout_height="435dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/details"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:text="@string/details"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/status"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/sideeff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="@string/side_effect"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Enumber"
-                android:textColor="#571B7E"
-                android:textSize="24dp" />
+                android:layout_height="443dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="2"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/selecteddetails"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="69dp"
-                android:text="Enumber"
-                android:textColor="#571B7E"
-                android:textSize="24dp" />
+                <TextView
+                    android:id="@+id/selectedname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enumber"
+                    android:textColor="#571B7E"
+                    android:textSize="24dp" />
 
-            <TextView
-                android:id="@+id/selectedstatus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
-                android:text="Enumber"
-                android:textColor="#571B7E"
-                android:textSize="24dp" />
+                <TextView
+                    android:id="@+id/selecteddetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="69dp"
+                    android:text="Enumber"
+                    android:textColor="#571B7E"
+                    android:textSize="24dp" />
 
-            <TextView
-                android:id="@+id/selectedsideeff"
-                android:layout_width="215dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="77dp"
-                android:text="Enumber"
-                android:textColor="#571B7E"
-                android:textSize="24dp" />
+                <TextView
+                    android:id="@+id/selectedstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="64dp"
+                    android:text="Enumber"
+                    android:textColor="#571B7E"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/selectedsideeff"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="77dp"
+                    android:text="Enumber"
+                    android:textColor="#571B7E"
+                    android:textSize="24dp" />
 
 
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
@@ -160,7 +170,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="45dp"
-                android:backgroundTint="#FF88"
+                android:backgroundTint="#98596E"
                 android:text="@string/add_to_history"
                 android:textAllCaps="false" />
 
@@ -173,6 +183,7 @@
             android:layout_weight="2"
             android:orientation="vertical">
 
+
             <Button
                 android:id="@+id/sharebtn"
                 android:layout_width="129dp"
@@ -183,9 +194,8 @@
                 android:textAllCaps="false"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
-                app:backgroundTint="#FF89" />
-
-
+                app:backgroundTint="#98596E" />
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
