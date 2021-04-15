@@ -49,7 +49,7 @@ public class CameraOutcomes extends Fragment implements EnumAdapter.SelectedEnum
         cameraResult = intent.getStringArrayExtra("cam1");
 
 
-        recyclerView = v.findViewById(R.id.recview2);//where the information will be
+        recyclerView = v.findViewById(R.id.recview22);//where the information will be
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);//prepare recycler to take info
