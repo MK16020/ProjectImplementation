@@ -28,7 +28,7 @@
     <LinearLayout
         android:layout_width="387dp"
         android:layout_height="584dp"
-        android:layout_margin="10dp"
+        android:layout_margin="16dp"
         android:layout_weight="8"
         android:background="@drawable/recyclerview_bg"
         android:orientation="vertical"
