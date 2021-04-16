@@ -41,36 +41,16 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
 
         //open this activity over the others
         Intent extras = getIntent();
-         int j=0;
-
-        textView = findViewById(R.id.text_display);
-        text= textView.getText().toString();
-
-
-        for (int i=0; i<text.length()-4;i++){
-
-            if(text.charAt(i) == 'E' && Character.isDigit(text.charAt(i+1))
-                    && Character.isDigit(text.charAt(i+2))
-                    &&Character.isDigit(text.charAt(i+3))){
-
-                cameraResult[j]=text.substring(i,i+4);
-                Log.d("zainab", "we are in text "+ cameraResult[j] );
-                j++;
-
-            }
-        }
+        int j=0;
 
 
 
-
-
-/*
         if (savedInstanceState == null) {
             if(extras == null) {
                 cameraResult= null;
             } else {
-                //cameraResult= (String[]) extras.get("cam1");
-              // cameraResult = (String []) extras.getSerializableExtra("cam1");
+                cameraResult= (String[]) extras.getStringArrayExtra("cam1");
+                // cameraResult = (String []) extras.getSerializableExtra("cam1");
 
                 Log.d("zainab", "we are in cameraResult1 "+cameraResult);
 
@@ -83,7 +63,7 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
             Log.d("zainab", "we are in cameraResult2 "+cameraResult);
 
         }
-*/
+
 
         recyclerView = findViewById(R.id.recview2);//where the information will be
 
@@ -120,7 +100,9 @@ public class Result extends AppCompatActivity implements EnumAdapter.SelectedEnu
                 }
 
             }
-
+            if (modifiedList.size()==cameraResult.length){
+                break;
+            }
         }
         adapt(modifiedList);
     }
