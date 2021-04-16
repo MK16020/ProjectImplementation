@@ -40,7 +40,7 @@ public class camera extends Fragment implements Serializable {
     private ImageView imageView;
     private TextView textView;
     Bitmap imageBitmap;
-    String [] result = new String[50];
+    String [] result = new String[60];
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
 
