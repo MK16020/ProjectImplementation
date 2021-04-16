@@ -165,7 +165,7 @@ public class camera extends Fragment implements Serializable {
         }
 
         if (result[0]!= null){
-            startActivity(new Intent(getActivity(), CameraOutcomes.class).putExtra("cam1", result));
+            startActivity(new Intent(getActivity(), Result.class).putExtra("cam1", result));
 
 
 
