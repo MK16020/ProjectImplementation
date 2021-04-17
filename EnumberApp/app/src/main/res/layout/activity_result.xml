@@ -29,7 +29,7 @@
     <LinearLayout
         android:layout_width="382dp"
         android:layout_height="0dp"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:layout_weight="8"
         android:background="@drawable/recyclerview_bg"
         android:padding="10dp">
