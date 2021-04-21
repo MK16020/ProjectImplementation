@@ -2144,20 +2144,7 @@
  }  
  },
   "history" : {
-    "-MWnxGa2ExCe2AkTvjvv" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : "Color"
-    },
-    "-MWpEBSHTCghZ98OezW4" : {
-      "E_no" : "E334",
-      "Name" : "Tartaric acid",
-      "Side_effect" : "Intestine Upset",
-      "Status" : "Halal, if not from wine by-product, in usa it is halal",
-      "Detail" : "Miscellaneous - tartaric acid and its salts"
-    },
+    
     "-MWpO_zBp3w7fHMyJ_Rc" : {
       "E_no" : "E334",
       "Name" : "Tartaric acid",
@@ -2165,33 +2152,12 @@
       "Status" : "Halal, if not from wine by-product, in usa it is halal",
       "Detail" : "Miscellaneous - tartaric acid and its salts"
     },
-    "-MWpUREYWuGnccX7aCUs" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : "Color"
-    },
     "-MWw_g-KFcTVNs63cu-z" : {
       "E_no" : "E100",
       "Name" : "Curcumin",
       "Side_effect" : "It is not harmful",
       "Status" : "Halal if pure grind turmeric",
       "Detail" : "Color"
-    },
-    "-MWwadw18Bmj8Mv6LnlZ" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : ""
-    },
-    "-MWwagO0tYYSRNeop6yJ" : {
-      "E_no" : "E334",
-      "Name" : "Tartaric acid",
-      "Side_effect" : "Intestine Upset",
-      "Status" : "Halal, if not from wine by-product, in usa it is halal",
-      "Detail" : ""
     },
     "-MWx0vm0p9kAx2JT8iSf" : {
       "E_no" : "E341",
@@ -2206,76 +2172,8 @@
       "Side_effect" : "It is increasing the cholesterol",
       "Status" : "Halal",
       "Detail" : "Miscellaneous - phosphoric acid and its salts"
-    },
-    "-MWy4LKvQb4mu93hGViz" : {
-      "E_no" : "E128",
-      "Name" : "Red 2g",
-      "Side_effect" : "May increase hyperactivity in affected children.",
-      "Status" : "Mushbooh",
-      "Detail" : "Colors"
-    },
-    "-MWy4LnK3z33GMwWhKl6" : {
-      "E_no" : "E128",
-      "Name" : "Red 2g",
-      "Side_effect" : "May increase hyperactivity in affected children.",
-      "Status" : "Mushbooh",
-      "Detail" : "Colors"
-    },
-    "-MX2FVXJtmARUqC1Dp3E" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : "Color"
-    },
-    "-MX31IQyEH8iDiZNIBlX" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : "Color"
-    },
-    "-MXBY5kqkWvxyPeVY-Yu" : {
-      "E_no" : "E120",
-      "Name" : "Cochineal/carminic acid",
-      "Side_effect" : "Dangerous and prohibited materials in America and Britain",
-      "Status" : "Haram according to ulama from uk & south africa",
-      "Detail" : "Color"
-    },
-    "-MXBYBftcJ1RD_AzqarL" : {
-      "E_no" : "E120",
-      "Name" : "Cochineal/carminic acid",
-      "Side_effect" : "Dangerous and prohibited materials in America and Britain",
-      "Status" : "Haram according to ulama from uk & south africa",
-      "Detail" : "Color"
-    },
-    "-MXBZ1Jr2u9q6UUT09ch" : {
-      "E_no" : "E120",
-      "Name" : "Cochineal/carminic acid",
-      "Side_effect" : "Dangerous and prohibited materials in America and Britain",
-      "Status" : "Haram according to ulama from uk & south africa",
-      "Detail" : "Color"
-    },
-    "-MXxrhdv2VPfHl1xCLjH" : {
-      "E_no" : "E333",
-      "Name" : "Calcium citrates",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal",
-      "Detail" : "Miscellaneous - citric acid and its salts"
-    },
-    "-MYHUepN5SFYVhzXCCLl" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : "Color"
-    },
-    "-MYIpoCcXZQMEG8dcStv" : {
-      "E_no" : "E100",
-      "Name" : "Curcumin",
-      "Side_effect" : "It is not harmful",
-      "Status" : "Halal if pure grind turmeric",
-      "Detail" : "Color"
     }
+    
+
   }
 }
