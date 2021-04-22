@@ -42,6 +42,8 @@
     <string name="share">مشاركة</string>
     <string name="result1">النتيجة</string>
     <string name="search_text">اظهر النتيجة</string>
+    <string name="enumbers_search">البحث </string>
+
 
 
 </resources>
