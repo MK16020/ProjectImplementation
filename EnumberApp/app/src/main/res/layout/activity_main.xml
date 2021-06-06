@@ -47,6 +47,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.467" />
 
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="374dp"
@@ -54,11 +55,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="165dp"
         android:text="@string/e_number_detector_helps_you_to_make_knowledgeable_decisions_of_what_food_to_buy"
+        android:textAlignment="center"
         android:textColor="#f78"
         android:textSize="18dp"
-        android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.498"
@@ -68,7 +69,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698" />
 
-
     <Button
         android:id="@+id/button2"
         android:layout_width="106dp"
@@ -77,9 +77,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="151dp"
-        android:layout_marginTop="218dp"
-        android:layout_marginEnd="154dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="150dp"
         android:text="@string/start"
         app:backgroundTint="#FFCBA4"
         tools:layout_editor_absoluteX="159dp"
